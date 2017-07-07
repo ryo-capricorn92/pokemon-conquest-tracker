@@ -1,0 +1,1300 @@
+{
+  "eevee": {
+    "icon": "https://www.serebii.net/conquest/pokemon/133.png",
+    "region": [
+      "aurora",
+      "pugilis",
+      "viperia",
+      "valora",
+      "starter",
+      "swarm"
+    ]
+  },
+  "vaporeon": {
+    "icon": "https://www.serebii.net/conquest/pokemon/134.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "jolteon": {
+    "icon": "https://www.serebii.net/conquest/pokemon/135.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "flareon": {
+    "icon": "https://www.serebii.net/conquest/pokemon/136.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "espeon": {
+    "icon": "https://www.serebii.net/conquest/pokemon/196.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "umbreon": {
+    "icon": "https://www.serebii.net/conquest/pokemon/197.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "leafeon": {
+    "icon": "https://www.serebii.net/conquest/pokemon/470.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "glaceon": {
+    "icon": "https://www.serebii.net/conquest/pokemon/471.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "ralts": {
+    "icon": "https://www.serebii.net/conquest/pokemon/280.png",
+    "region": [
+      "illusio"
+    ]
+  },
+  "kirlia": {
+    "icon": "https://www.serebii.net/conquest/pokemon/281.png",
+    "region": [
+      "illusio"
+    ]
+  },
+  "gardevoir": {
+    "icon": "https://www.serebii.net/conquest/pokemon/282.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "gallade": {
+    "icon": "https://www.serebii.net/conquest/pokemon/475.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "magikarp": {
+    "icon": "https://www.serebii.net/conquest/pokemon/129.png",
+    "region": [
+      "fontaine",
+      "dragnor"
+    ]
+  },
+  "gyarados": {
+    "icon": "https://www.serebii.net/conquest/pokemon/130.png",
+    "region": [
+      "fontaine",
+      "avia"
+    ]
+  },
+  "pichu": {
+    "icon": "https://www.serebii.net/conquest/pokemon/172.png",
+    "region": [
+      "violight"
+    ]
+  },
+  "pikachu": {
+    "icon": "https://www.serebii.net/conquest/pokemon/025.png",
+    "region": [
+      "violight"
+    ]
+  },
+  "raichu": {
+    "icon": "https://www.serebii.net/conquest/pokemon/026.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "wooper": {
+    "icon": "https://www.serebii.net/conquest/pokemon/194.png",
+    "region": [
+      "aurora",
+      "fontaine",
+      "terrera"
+    ]
+  },
+  "quagsire": {
+    "icon": "https://www.serebii.net/conquest/pokemon/195.png",
+    "region": [
+      "fontaine",
+      "terrera"
+    ]
+  },
+  "igglybuff": {
+    "icon": "https://www.serebii.net/conquest/pokemon/174.png",
+    "region": [
+      "aurora"
+    ]
+  },
+  "jigglypuff": {
+    "icon": "https://www.serebii.net/conquest/pokemon/039.png",
+    "region": [
+      "aurora"
+    ]
+  },
+  "wigglytuff": {
+    "icon": "https://www.serebii.net/conquest/pokemon/040.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "zubat": {
+    "icon": "https://www.serebii.net/conquest/pokemon/041.png",
+    "region": [
+      "ignis",
+      "cragspur",
+      "viperia",
+      "avia",
+      "nixtorm",
+      "dragnor"
+    ]
+  },
+  "golbat": {
+    "icon": "https://www.serebii.net/conquest/pokemon/042.png",
+    "region": [
+      "viperia",
+      "avia"
+    ]
+  },
+  "crobat": {
+    "icon": "https://www.serebii.net/conquest/pokemon/169.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "starly": {
+    "icon": "https://www.serebii.net/conquest/pokemon/396.png",
+    "region": [
+      "aurora",
+      "yaksha",
+      "avia",
+      "dragnor"
+    ]
+  },
+  "staravia": {
+    "icon": "https://www.serebii.net/conquest/pokemon/397.png",
+    "region": [
+      "aurora",
+      "avia"
+    ]
+  },
+  "staraptor": {
+    "icon": "https://www.serebii.net/conquest/pokemon/398.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "bidoof": {
+    "icon": "https://www.serebii.net/conquest/pokemon/399.png",
+    "region": [
+      "aurora",
+      "ignis",
+      "pugilis",
+      "terrera",
+      "yaksha"
+    ]
+  },
+  "bibarel": {
+    "icon": "https://www.serebii.net/conquest/pokemon/400.png",
+    "region": [
+      "aurora",
+      "fontaine"
+    ]
+  },
+  "venipede": {
+    "icon": "https://www.serebii.net/conquest/pokemon/543.png",
+    "region": [
+      "chrysalia",
+      "viperia",
+      "dragnor"
+    ]
+  },
+  "whirlipede": {
+    "icon": "https://www.serebii.net/conquest/pokemon/544.png",
+    "region": [
+      "chrysalia",
+      "viperia"
+    ]
+  },
+  "scolipede": {
+    "icon": "https://www.serebii.net/conquest/pokemon/545.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "shinx": {
+    "icon": "https://www.serebii.net/conquest/pokemon/403.png",
+    "region": [
+      "violight"
+    ]
+  },
+  "luxio": {
+    "icon": "https://www.serebii.net/conquest/pokemon/404.png",
+    "region": [
+      "violight"
+    ]
+  },
+  "luxray": {
+    "icon": "https://www.serebii.net/conquest/pokemon/405.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "litwick": {
+    "icon": "https://www.serebii.net/conquest/pokemon/607.png",
+    "region": [
+      "ignis",
+      "valora",
+      "spectra"
+    ]
+  },
+  "lampent": {
+    "icon": "https://www.serebii.net/conquest/pokemon/608.png",
+    "region": [
+      "ignis",
+      "spectra"
+    ]
+  },
+  "chandelure": {
+    "icon": "https://www.serebii.net/conquest/pokemon/609.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "roggenrola": {
+    "icon": "https://www.serebii.net/conquest/pokemon/524.png",
+    "region": [
+      "cragspur",
+      "yaksha"
+    ]
+  },
+  "boldore": {
+    "icon": "https://www.serebii.net/conquest/pokemon/525.png",
+    "region": [
+      "cragspur"
+    ]
+  },
+  "gigalith": {
+    "icon": "https://www.serebii.net/conquest/pokemon/526.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "petilil": {
+    "icon": "https://www.serebii.net/conquest/pokemon/548.png",
+    "region": [
+      "greenleaf"
+    ]
+  },
+  "lilligant": {
+    "icon": "https://www.serebii.net/conquest/pokemon/549.png",
+    "region": [
+      "greenleaf"
+    ]
+  },
+  "mareep": {
+    "icon": "https://www.serebii.net/conquest/pokemon/179.png",
+    "region": [
+      "violight"
+    ]
+  },
+  "flaaffy": {
+    "icon": "https://www.serebii.net/conquest/pokemon/180.png",
+    "region": [
+      "violight"
+    ]
+  },
+  "ampharos": {
+    "icon": "https://www.serebii.net/conquest/pokemon/181.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "cottonee": {
+    "icon": "https://www.serebii.net/conquest/pokemon/546.png",
+    "region": [
+      "greenleaf"
+    ]
+  },
+  "whimsicott": {
+    "icon": "https://www.serebii.net/conquest/pokemon/547.png",
+    "region": [
+      "greenleaf"
+    ]
+  },
+  "riolu": {
+    "icon": "https://www.serebii.net/conquest/pokemon/447.png",
+    "region": [
+      "pugilis"
+    ]
+  },
+  "lucario": {
+    "icon": "https://www.serebii.net/conquest/pokemon/448.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "chingling": {
+    "icon": "https://www.serebii.net/conquest/pokemon/433.png",
+    "region": [
+      "illusio"
+    ]
+  },
+  "chimecho": {
+    "icon": "https://www.serebii.net/conquest/pokemon/358.png",
+    "region": [
+      "illusio"
+    ]
+  },
+  "ekans": {
+    "icon": "https://www.serebii.net/conquest/pokemon/023.png",
+    "region": [
+      "cragspur",
+      "viperia",
+      "valora",
+      "dragnor"
+    ]
+  },
+  "arbok": {
+    "icon": "https://www.serebii.net/conquest/pokemon/024.png",
+    "region": [
+      "viperia"
+    ]
+  },
+  "pineco": {
+    "icon": "https://www.serebii.net/conquest/pokemon/204.png",
+    "region": [
+      "chrysalia"
+    ]
+  },
+  "forretress": {
+    "icon": "https://www.serebii.net/conquest/pokemon/205.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "meowth": {
+    "icon": "https://www.serebii.net/conquest/pokemon/052.png",
+    "region": [
+      "aurora",
+      "terrera"
+    ]
+  },
+  "persian": {
+    "icon": "https://www.serebii.net/conquest/pokemon/053.png",
+    "region": [
+      "aurora"
+    ]
+  },
+  "spheal": {
+    "icon": "https://www.serebii.net/conquest/pokemon/363.png",
+    "region": [
+      "fontaine",
+      "valora",
+      "nixtorm",
+      "dragnor"
+    ]
+  },
+  "sealeo": {
+    "icon": "https://www.serebii.net/conquest/pokemon/364.png",
+    "region": [
+      "nixtorm"
+    ]
+  },
+  "walrein": {
+    "icon": "https://www.serebii.net/conquest/pokemon/365.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "gothita": {
+    "icon": "https://www.serebii.net/conquest/pokemon/574.png",
+    "region": [
+      "illusio"
+    ]
+  },
+  "gothorita": {
+    "icon": "https://www.serebii.net/conquest/pokemon/575.png",
+    "region": [
+      "illusio"
+    ]
+  },
+  "gothitelle": {
+    "icon": "https://www.serebii.net/conquest/pokemon/576.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "sandile": {
+    "icon": "https://www.serebii.net/conquest/pokemon/551.png",
+    "region": [
+      "terrera",
+      "cragspur",
+      "yaksha"
+    ]
+  },
+  "krokorok": {
+    "icon": "https://www.serebii.net/conquest/pokemon/552.png",
+    "region": [
+      "terrera",
+      "yaksha"
+    ]
+  },
+  "krookodile": {
+    "icon": "https://www.serebii.net/conquest/pokemon/553.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "duskull": {
+    "icon": "https://www.serebii.net/conquest/pokemon/355.png",
+    "region": [
+      "valora",
+      "spectra",
+      "dragnor"
+    ]
+  },
+  "dusclops": {
+    "icon": "https://www.serebii.net/conquest/pokemon/356.png",
+    "region": [
+      "spectra"
+    ]
+  },
+  "dusknoir": {
+    "icon": "https://www.serebii.net/conquest/pokemon/477.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "munna": {
+    "icon": "https://www.serebii.net/conquest/pokemon/517.png",
+    "region": [
+      "illusio"
+    ]
+  },
+  "musharna": {
+    "icon": "https://www.serebii.net/conquest/pokemon/518.png",
+    "region": [
+      "illusio"
+    ]
+  },
+  "blitzle": {
+    "icon": "https://www.serebii.net/conquest/pokemon/522.png",
+    "region": [
+      "violight"
+    ]
+  },
+  "zebstrika": {
+    "icon": "https://www.serebii.net/conquest/pokemon/523.png",
+    "region": [
+      "violight"
+    ]
+  },
+  "dratini": {
+    "icon": "https://www.serebii.net/conquest/pokemon/147.png",
+    "region": [
+      "nixtorm",
+      "dragnor"
+    ]
+  },
+  "dragonair": {
+    "icon": "https://www.serebii.net/conquest/pokemon/148.png",
+    "region": [
+      "dragnor"
+    ]
+  },
+  "dragonite": {
+    "icon": "https://www.serebii.net/conquest/pokemon/149.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "larvitar": {
+    "icon": "https://www.serebii.net/conquest/pokemon/246.png",
+    "region": [
+      "terrera",
+      "cragspur"
+    ]
+  },
+  "pupitar": {
+    "icon": "https://www.serebii.net/conquest/pokemon/247.png",
+    "region": [
+      "terrera",
+      "cragspur"
+    ]
+  },
+  "tyranitar": {
+    "icon": "https://www.serebii.net/conquest/pokemon/248.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "beldum": {
+    "icon": "https://www.serebii.net/conquest/pokemon/374.png",
+    "region": [
+      "illusio",
+      "valora"
+    ]
+  },
+  "metang": {
+    "icon": "https://www.serebii.net/conquest/pokemon/375.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "metagross": {
+    "icon": "https://www.serebii.net/conquest/pokemon/376.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "gible": {
+    "icon": "https://www.serebii.net/conquest/pokemon/443.png",
+    "region": [
+      "dragnor",
+      "terrera",
+      "swarm"
+    ]
+  },
+  "gabite": {
+    "icon": "https://www.serebii.net/conquest/pokemon/444.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "garchomp": {
+    "icon": "https://www.serebii.net/conquest/pokemon/445.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "croagunk": {
+    "icon": "https://www.serebii.net/conquest/pokemon/453.png",
+    "region": [
+      "viperia",
+      "swarm"
+    ]
+  },
+  "toxicroak": {
+    "icon": "https://www.serebii.net/conquest/pokemon/454.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "deino": {
+    "icon": "https://www.serebii.net/conquest/pokemon/633.png",
+    "region": [
+      "yaksha",
+      "dragnor"
+    ]
+  },
+  "zweilous": {
+    "icon": "https://www.serebii.net/conquest/pokemon/634.png",
+    "region": [
+      "yaksha",
+      "dragnor"
+    ]
+  },
+  "hydreigon": {
+    "icon": "https://www.serebii.net/conquest/pokemon/635.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "snorunt": {
+    "icon": "https://www.serebii.net/conquest/pokemon/361.png",
+    "region": [
+      "nixtorm"
+    ]
+  },
+  "glalie": {
+    "icon": "https://www.serebii.net/conquest/pokemon/362.png",
+    "region": [
+      "nixtorm"
+    ]
+  },
+  "froslass": {
+    "icon": "https://www.serebii.net/conquest/pokemon/478.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "minccino": {
+    "icon": "https://www.serebii.net/conquest/pokemon/572.png",
+    "region": [
+      "aurora",
+      "terrera",
+      "yaksha",
+      "dragnor"
+    ]
+  },
+  "cinccino": {
+    "icon": "https://www.serebii.net/conquest/pokemon/573.png",
+    "region": [
+      "aurora"
+    ]
+  },
+  "machop": {
+    "icon": "https://www.serebii.net/conquest/pokemon/066.png",
+    "region": [
+      "pugilis"
+    ]
+  },
+  "machoke": {
+    "icon": "https://www.serebii.net/conquest/pokemon/067.png",
+    "region": [
+      "pugilis"
+    ]
+  },
+  "machamp": {
+    "icon": "https://www.serebii.net/conquest/pokemon/068.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "timburr": {
+    "icon": "https://www.serebii.net/conquest/pokemon/532.png",
+    "region": [
+      "pugilis"
+    ]
+  },
+  "gurdurr": {
+    "icon": "https://www.serebii.net/conquest/pokemon/533.png",
+    "region": [
+      "pugilis"
+    ]
+  },
+  "conkeldurr": {
+    "icon": "https://www.serebii.net/conquest/pokemon/534.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "cubchoo": {
+    "icon": "https://www.serebii.net/conquest/pokemon/613.png",
+    "region": [
+      "nixtorm"
+    ]
+  },
+  "beartic": {
+    "icon": "https://www.serebii.net/conquest/pokemon/614.png",
+    "region": [
+      "nixtorm"
+    ]
+  },
+  "oshawott": {
+    "icon": "https://www.serebii.net/conquest/pokemon/501.png",
+    "region": [
+      "fontaine"
+    ]
+  },
+  "dewott": {
+    "icon": "https://www.serebii.net/conquest/pokemon/502.png",
+    "region": [
+      "fontaine"
+    ]
+  },
+  "samurott": {
+    "icon": "https://www.serebii.net/conquest/pokemon/503.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "charmander": {
+    "icon": "https://www.serebii.net/conquest/pokemon/004.png",
+    "region": [
+      "ignis"
+    ]
+  },
+  "charmeleon": {
+    "icon": "https://www.serebii.net/conquest/pokemon/005.png",
+    "region": [
+      "ignis"
+    ]
+  },
+  "charizard": {
+    "icon": "https://www.serebii.net/conquest/pokemon/006.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "gastly": {
+    "icon": "https://www.serebii.net/conquest/pokemon/092.png",
+    "region": [
+      "viperia",
+      "avia",
+      "spectra",
+      "nixtorm"
+    ]
+  },
+  "haunter": {
+    "icon": "https://www.serebii.net/conquest/pokemon/093.png",
+    "region": [
+      "viperia",
+      "spectra"
+    ]
+  },
+  "gengar": {
+    "icon": "https://www.serebii.net/conquest/pokemon/094.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "chimchar": {
+    "icon": "https://www.serebii.net/conquest/pokemon/390.png",
+    "region": [
+      "ignis"
+    ]
+  },
+  "monferno": {
+    "icon": "https://www.serebii.net/conquest/pokemon/391.png",
+    "region": [
+      "ignis"
+    ]
+  },
+  "infernape": {
+    "icon": "https://www.serebii.net/conquest/pokemon/392.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "snivy": {
+    "icon": "https://www.serebii.net/conquest/pokemon/495.png",
+    "region": [
+      "greenleaf"
+    ]
+  },
+  "servine": {
+    "icon": "https://www.serebii.net/conquest/pokemon/496.png",
+    "region": [
+      "greenleaf"
+    ]
+  },
+  "serperior": {
+    "icon": "https://www.serebii.net/conquest/pokemon/497.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "tepig": {
+    "icon": "https://www.serebii.net/conquest/pokemon/498.png",
+    "region": [
+      "ignis"
+    ]
+  },
+  "pignite": {
+    "icon": "https://www.serebii.net/conquest/pokemon/499.png",
+    "region": [
+      "ignis",
+      "pugilis"
+    ]
+  },
+  "emboar": {
+    "icon": "https://www.serebii.net/conquest/pokemon/500.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "sewaddle": {
+    "icon": "https://www.serebii.net/conquest/pokemon/540.png",
+    "region": [
+      "greenleaf",
+      "chrysalia",
+      "valora"
+    ]
+  },
+  "swadloon": {
+    "icon": "https://www.serebii.net/conquest/pokemon/541.png",
+    "region": [
+      "greenleaf",
+      "chrysalia"
+    ]
+  },
+  "leavanny": {
+    "icon": "https://www.serebii.net/conquest/pokemon/542.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "abra": {
+    "icon": "https://www.serebii.net/conquest/pokemon/063.png",
+    "region": [
+      "illusio"
+    ]
+  },
+  "kadabra": {
+    "icon": "https://www.serebii.net/conquest/pokemon/064.png",
+    "region": [
+      "illusio"
+    ]
+  },
+  "alakazam": {
+    "icon": "https://www.serebii.net/conquest/pokemon/065.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "treecko": {
+    "icon": "https://www.serebii.net/conquest/pokemon/252.png",
+    "region": [
+      "greenleaf"
+    ]
+  },
+  "grovyle": {
+    "icon": "https://www.serebii.net/conquest/pokemon/253.png",
+    "region": [
+      "greenleaf"
+    ]
+  },
+  "sceptile": {
+    "icon": "https://www.serebii.net/conquest/pokemon/254.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "piplup": {
+    "icon": "https://www.serebii.net/conquest/pokemon/393.png",
+    "region": [
+      "fontaine"
+    ]
+  },
+  "prinplup": {
+    "icon": "https://www.serebii.net/conquest/pokemon/394.png",
+    "region": [
+      "fontaine"
+    ]
+  },
+  "empoleon": {
+    "icon": "https://www.serebii.net/conquest/pokemon/395.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "pansage": {
+    "icon": "https://www.serebii.net/conquest/pokemon/511.png",
+    "region": [
+      "greenleaf",
+      "swarm"
+    ]
+  },
+  "simisage": {
+    "icon": "https://www.serebii.net/conquest/pokemon/512.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "pansear": {
+    "icon": "https://www.serebii.net/conquest/pokemon/513.png",
+    "region": [
+      "ignis",
+      "swarm"
+    ]
+  },
+  "simisear": {
+    "icon": "https://www.serebii.net/conquest/pokemon/514.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "panpour": {
+    "icon": "https://www.serebii.net/conquest/pokemon/515.png",
+    "region": [
+      "fontaine",
+      "swarm"
+    ]
+  },
+  "simipour": {
+    "icon": "https://www.serebii.net/conquest/pokemon/516.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "darumaka": {
+    "icon": "https://www.serebii.net/conquest/pokemon/554.png",
+    "region": [
+      "ignis"
+    ]
+  },
+  "darmanitan": {
+    "icon": "https://www.serebii.net/conquest/pokemon/555.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "axew": {
+    "icon": "https://www.serebii.net/conquest/pokemon/610.png",
+    "region": [
+      "cragspur",
+      "dragnor"
+    ]
+  },
+  "fraxure": {
+    "icon": "https://www.serebii.net/conquest/pokemon/611.png",
+    "region": [
+      "dragnor"
+    ]
+  },
+  "haxorus": {
+    "icon": "https://www.serebii.net/conquest/pokemon/612.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "joltik": {
+    "icon": "https://www.serebii.net/conquest/pokemon/595.png",
+    "region": [
+      "chrysalia",
+      "violight"
+    ]
+  },
+  "galvantula": {
+    "icon": "https://www.serebii.net/conquest/pokemon/596.png",
+    "region": [
+      "chrysalia",
+      "violight"
+    ]
+  },
+  "aron": {
+    "icon": "https://www.serebii.net/conquest/pokemon/304.png",
+    "region": [
+      "cragspur",
+      "valora"
+    ]
+  },
+  "lairon": {
+    "icon": "https://www.serebii.net/conquest/pokemon/305.png",
+    "region": [
+      "cragspur",
+      "valora"
+    ]
+  },
+  "aggron": {
+    "icon": "https://www.serebii.net/conquest/pokemon/306.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "drilbur": {
+    "icon": "https://www.serebii.net/conquest/pokemon/529.png",
+    "region": [
+      "terrera"
+    ]
+  },
+  "excadrill": {
+    "icon": "https://www.serebii.net/conquest/pokemon/530.png",
+    "region": [
+      "terrera",
+      "valora"
+    ]
+  },
+  "zorua": {
+    "icon": "https://www.serebii.net/conquest/pokemon/570.png",
+    "region": [
+      "kotaro"
+    ]
+  },
+  "zoroark": {
+    "icon": "https://www.serebii.net/conquest/pokemon/571.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "skorupi": {
+    "icon": "https://www.serebii.net/conquest/pokemon/451.png",
+    "region": [
+      "chrysalia",
+      "viperia",
+      "avia"
+    ]
+  },
+  "drapion": {
+    "icon": "https://www.serebii.net/conquest/pokemon/452.png",
+    "region": [
+      "viperia",
+      "yaksha"
+    ]
+  },
+  "pawniard": {
+    "icon": "https://www.serebii.net/conquest/pokemon/624.png",
+    "region": [
+      "yaksha",
+      "valora",
+      "nixtorm"
+    ]
+  },
+  "bisharp": {
+    "icon": "https://www.serebii.net/conquest/pokemon/625.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "rhyhorn": {
+    "icon": "https://www.serebii.net/conquest/pokemon/111.png",
+    "region": [
+      "terrera",
+      "cragspur"
+    ]
+  },
+  "rhydon": {
+    "icon": "https://www.serebii.net/conquest/pokemon/112.png",
+    "region": [
+      "terrera",
+      "cragspur"
+    ]
+  },
+  "rhyperior": {
+    "icon": "https://www.serebii.net/conquest/pokemon/464.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "shieldon": {
+    "icon": "https://www.serebii.net/conquest/pokemon/410.png",
+    "region": [
+      "cragspur",
+      "valora"
+    ]
+  },
+  "bastiodon": {
+    "icon": "https://www.serebii.net/conquest/pokemon/411.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "scraggy": {
+    "icon": "https://www.serebii.net/conquest/pokemon/559.png",
+    "region": [
+      "pugilis",
+      "yaksha",
+      "avia",
+      "nixtorm"
+    ]
+  },
+  "scrafty": {
+    "icon": "https://www.serebii.net/conquest/pokemon/560.png",
+    "region": [
+      "pugilis",
+      "yaksha"
+    ]
+  },
+  "drifloon": {
+    "icon": "https://www.serebii.net/conquest/pokemon/425.png",
+    "region": [
+      "spectra",
+      "swarm"
+    ]
+  },
+  "drifblim": {
+    "icon": "https://www.serebii.net/conquest/pokemon/426.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "rufflet": {
+    "icon": "https://www.serebii.net/conquest/pokemon/627.png",
+    "region": [
+      "avia"
+    ]
+  },
+  "braviary": {
+    "icon": "https://www.serebii.net/conquest/pokemon/628.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "anorith": {
+    "icon": "https://www.serebii.net/conquest/pokemon/347.png",
+    "region": [
+      "chrysalia",
+      "swarm"
+    ]
+  },
+  "armaldo": {
+    "icon": "https://www.serebii.net/conquest/pokemon/348.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "larvesta": {
+    "icon": "https://www.serebii.net/conquest/pokemon/636.png",
+    "region": [
+      "ignis",
+      "chrysalia"
+    ]
+  },
+  "volcarona": {
+    "icon": "https://www.serebii.net/conquest/pokemon/637.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "onix": {
+    "icon": "https://www.serebii.net/conquest/pokemon/095.png",
+    "region": [
+      "terrera",
+      "cragspur"
+    ]
+  },
+  "steelix": {
+    "icon": "https://www.serebii.net/conquest/pokemon/208.png",
+    "region": [
+      "terrera",
+      "valora"
+    ]
+  },
+  "beedrill": {
+    "icon": "https://www.serebii.net/conquest/pokemon/015.png",
+    "region": [
+      "chrysalia",
+      "viperia"
+    ]
+  },
+  "munchlax": {
+    "icon": "https://www.serebii.net/conquest/pokemon/446.png",
+    "region": [
+      "aurora"
+    ]
+  },
+  "snorlax": {
+    "icon": "https://www.serebii.net/conquest/pokemon/143.png",
+    "region": [
+      "aurora"
+    ]
+  },
+  "emolga": {
+    "icon": "https://www.serebii.net/conquest/pokemon/587.png",
+    "region": [
+      "violight",
+      "swarm"
+    ]
+  },
+  "sneasel": {
+    "icon": "https://www.serebii.net/conquest/pokemon/215.png",
+    "region": [
+      "yaksha",
+      "nixtorm",
+      "swarm"
+    ]
+  },
+  "weavile": {
+    "icon": "https://www.serebii.net/conquest/pokemon/461.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "misdreavus": {
+    "icon": "https://www.serebii.net/conquest/pokemon/200.png",
+    "region": [
+      "spectra"
+    ]
+  },
+  "mismagius": {
+    "icon": "https://www.serebii.net/conquest/pokemon/429.png",
+    "region": [
+      "evolve"
+    ]
+  },
+  "audino": {
+    "icon": "https://www.serebii.net/conquest/pokemon/531.png",
+    "region": [
+      "aurora",
+      "swarm"
+    ]
+  },
+  "carnivine": {
+    "icon": "https://www.serebii.net/conquest/pokemon/455.png",
+    "region": [
+      "greenleaf"
+    ]
+  },
+  "spiritomb": {
+    "icon": "https://www.serebii.net/conquest/pokemon/442.png",
+    "region": [
+      "yaksha",
+      "spectra"
+    ]
+  },
+  "scyther": {
+    "icon": "https://www.serebii.net/conquest/pokemon/123.png",
+    "region": [
+      "chrysalia",
+      "avia"
+    ]
+  },
+  "scizor": {
+    "icon": "https://www.serebii.net/conquest/pokemon/212.png",
+    "region": [
+      "chrysalia",
+      "valora"
+    ]
+  },
+  "lapras": {
+    "icon": "https://www.serebii.net/conquest/pokemon/131.png",
+    "region": [
+      "nixtorm"
+    ]
+  },
+  "terrakion": {
+    "icon": "https://www.serebii.net/conquest/pokemon/639.png",
+    "region": [
+      "cragspur"
+    ]
+  },
+  "articuno": {
+    "icon": "https://www.serebii.net/conquest/pokemon/144.png",
+    "region": [
+      "nixtorm"
+    ]
+  },
+  "registeel": {
+    "icon": "https://www.serebii.net/conquest/pokemon/379.png",
+    "region": [
+      "valora"
+    ]
+  },
+  "groudon": {
+    "icon": "https://www.serebii.net/conquest/pokemon/383.png",
+    "region": [
+      "terrera"
+    ]
+  },
+  "dialga": {
+    "icon": "https://www.serebii.net/conquest/pokemon/483.png",
+    "region": [
+      "valora"
+    ]
+  },
+  "mewtwo": {
+    "icon": "https://www.serebii.net/conquest/pokemon/150.png",
+    "region": [
+      "illusio"
+    ]
+  },
+  "reshiram": {
+    "icon": "https://www.serebii.net/conquest/pokemon/643.png",
+    "region": [
+      "null"
+    ]
+  },
+  "zekrom": {
+    "icon": "https://www.serebii.net/conquest/pokemon/644.png",
+    "region": [
+      "violight"
+    ]
+  },
+  "arceus": {
+    "icon": "https://www.serebii.net/conquest/pokemon/493.png",
+    "region": [
+      "aurora"
+    ]
+  },
+  "rayquaza": {
+    "icon": "https://www.serebii.net/conquest/pokemon/384.png",
+    "region": [
+      "dragnor"
+    ]
+  }
+}
