@@ -9,7 +9,7 @@ const MainContainer = Grid.extend`
 
 const App = () => (
   <MainContainer>
-    <Header>
+    <Header justify="space-around">
       Pokemon Conquest Tracker
     </Header>
   </MainContainer>
