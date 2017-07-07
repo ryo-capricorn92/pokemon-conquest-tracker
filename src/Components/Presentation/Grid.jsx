@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const breakpoints = {
   xs: '960px',
   sm: '1024px',
-  md: '1200px',
+  md: '1300px',
   lg: '1600px',
   xl: '1920px',
 };

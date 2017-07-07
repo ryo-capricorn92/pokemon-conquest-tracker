@@ -3,6 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Grid from './Grid';
+import Warrior from './Warrior';
 
 const Wrapper = Grid.extend`
   padding: 20px;
@@ -18,14 +19,18 @@ const Title = styled.h3`
   color: indianred;
 `;
 
+const WarriorContainer = Grid.extend`
+  padding: 15px;
+`;
+
 const Region = ({ name, warriors }) => (
   <Wrapper column>
     <Title>{name}</Title>
-    <Grid row>
+    <Grid column>
       {warriors.map(warrior => (
-        <Grid>
-          {warrior.name}
-        </Grid>
+        <WarriorContainer key={warrior.name}>
+          <Warrior warrior={warrior} />
+        </WarriorContainer>
       ))}
     </Grid>
   </Wrapper>

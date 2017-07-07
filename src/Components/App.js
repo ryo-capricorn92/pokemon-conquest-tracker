@@ -12,6 +12,7 @@ import { regions } from '../Data/regions.json';
 
 const MainContainer = Grid.extend`
   padding: 0 30px;
+  min-width: 1024px;
 `;
 
 const RegionContainer = Grid.extend`
@@ -50,12 +51,11 @@ class App extends Component {
         </Header>
         <Grid wrap>
           {regions.map(region => (
-            <RegionContainer xs="12" md="6">
+            <RegionContainer sm="12" md="6" key={region}>
               <Region
                 name={region}
                 warriors={this.state.ransei[region].warriors}
                 updateRegion={this.updateRegion}
-                key={region}
               />
             </RegionContainer>
           ))}
