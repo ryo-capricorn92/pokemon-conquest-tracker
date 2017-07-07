@@ -1,0 +1,2161 @@
+{
+  "tsunehisa": {
+    "icon": "https://www.serebii.net/conquest/bushou/n1.png",
+    "perfectLinks": [
+      "meowth",
+      "persian"
+    ],
+    "types": [
+      "normal"
+    ]
+  },
+  "naoie": {
+    "icon": "https://www.serebii.net/conquest/bushou/n2.png",
+    "perfectLinks": [
+      "deino",
+      "zweilous",
+      "hydreigon"
+    ],
+    "types": [
+      "dark"
+    ]
+  },
+  "harutaka": {
+    "icon": "https://www.serebii.net/conquest/bushou/n3.png",
+    "perfectLinks": [
+      "gible",
+      "gabite",
+      "garchomp"
+    ],
+    "types": [
+      "ground",
+      "normal"
+    ]
+  },
+  "takanobu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n4.png",
+    "perfectLinks": [
+      "munchlax",
+      "snorlax"
+    ],
+    "types": [
+      "fight",
+      "normal"
+    ]
+  },
+  "naoshige": {
+    "icon": "https://www.serebii.net/conquest/bushou/n5.png",
+    "perfectLinks": [
+      "rufflet",
+      "braviary"
+    ],
+    "types": [
+      "normal"
+    ]
+  },
+  "ujisato": {
+    "icon": "https://www.serebii.net/conquest/bushou/n6.png",
+    "perfectLinks": [
+      "snivy",
+      "servine",
+      "serperior"
+    ],
+    "types": [
+      "grass",
+      "normal"
+    ]
+  },
+  "chacha": {
+    "icon": "https://www.serebii.net/conquest/bushou/n7.png",
+    "perfectLinks": [
+      "minccino",
+      "cinccino"
+    ],
+    "types": [
+      "normal"
+    ]
+  },
+  "go": {
+    "icon": "https://www.serebii.net/conquest/bushou/n8.png",
+    "perfectLinks": [
+      "piplup",
+      "prinplup",
+      "empoleon"
+    ],
+    "types": [
+      "water",
+      "normal"
+    ]
+  },
+  "hatsu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n7.png",
+    "perfectLinks": [
+      "igglybuff",
+      "jigglypuff",
+      "wigglytuff"
+    ],
+    "types": [
+      "water",
+      "normal"
+    ]
+  },
+  "kazumasu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n9.png",
+    "perfectLinks": [
+      "axew",
+      "fraxure",
+      "haxorus"
+    ],
+    "types": [
+      "water",
+      "dragon"
+    ]
+  },
+  "nagahide": {
+    "icon": "https://www.serebii.net/conquest/bushou/n5.png",
+    "perfectLinks": [
+      "dratini",
+      "dragonair",
+      "dragonite"
+    ],
+    "types": [
+      "dragon"
+    ]
+  },
+  "yoshitaka": {
+    "icon": "https://www.serebii.net/conquest/bushou/n10.png",
+    "perfectLinks": [
+      "panpour",
+      "simipour"
+    ],
+    "types": [
+      "water",
+      "dragon"
+    ]
+  },
+  "urakusai": {
+    "icon": "https://www.serebii.net/conquest/bushou/n6.png",
+    "perfectLinks": [
+      "petilil",
+      "lilligant"
+    ],
+    "types": [
+      "grass",
+      "dragon"
+    ]
+  },
+  "narimasa": {
+    "icon": "https://www.serebii.net/conquest/bushou/n4.png",
+    "perfectLinks": [
+      "gible",
+      "gabite",
+      "garchomp"
+    ],
+    "types": [
+      "dragon"
+    ]
+  },
+  "tomonori": {
+    "icon": "https://www.serebii.net/conquest/bushou/n11.png",
+    "perfectLinks": [
+      "axew",
+      "fraxure",
+      "haxorus"
+    ],
+    "types": [
+      "steel",
+      "dragon"
+    ]
+  },
+  "murashige": {
+    "icon": "https://www.serebii.net/conquest/bushou/n6.png",
+    "perfectLinks": [
+      "treecko",
+      "grovyle",
+      "sceptile"
+    ],
+    "types": [
+      "grass",
+      "dragon"
+    ]
+  },
+  "masahide": {
+    "icon": "https://www.serebii.net/conquest/bushou/n2.png",
+    "perfectLinks": [
+      "gible",
+      "gabite",
+      "garchomp"
+    ],
+    "types": [
+      "dragon"
+    ]
+  },
+  "nagayoshi": {
+    "icon": "https://www.serebii.net/conquest/bushou/n12.png",
+    "perfectLinks": [
+      "riolu",
+      "lucario"
+    ],
+    "types": [
+      "fight",
+      "dragon"
+    ]
+  },
+  "kitsuno": {
+    "icon": "https://www.serebii.net/conquest/bushou/n8.png",
+    "perfectLinks": [
+      "dratini",
+      "dragonair",
+      "dragonite"
+    ],
+    "types": [
+      "dragon"
+    ]
+  },
+  "gotoku": {
+    "icon": "https://www.serebii.net/conquest/bushou/n8.png",
+    "perfectLinks": [
+      "deino",
+      "zweilous",
+      "hydreigon"
+    ],
+    "types": [
+      "dragon"
+    ]
+  },
+  "hidenaga": {
+    "icon": "https://www.serebii.net/conquest/bushou/n13.png",
+    "perfectLinks": [
+      "larvesta",
+      "volcarona"
+    ],
+    "types": [
+      "fire"
+    ]
+  },
+  "koroku": {
+    "icon": "https://www.serebii.net/conquest/bushou/n14.png",
+    "perfectLinks": [
+      "timburr",
+      "gurdurr",
+      "conkeldurr"
+    ],
+    "types": [
+      "fight",
+      "fire"
+    ]
+  },
+  "takatora": {
+    "icon": "https://www.serebii.net/conquest/bushou/n15.png",
+    "perfectLinks": [
+      "litwick",
+      "lampent",
+      "chandelure"
+    ],
+    "types": [
+      "flying",
+      "fire"
+    ]
+  },
+  "yoshitsugu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n2.png",
+    "perfectLinks": [
+      "raltz",
+      "kirlia",
+      "gardevoir"
+    ],
+    "types": [
+      "psychic",
+      "fire"
+    ]
+  },
+  "yukinaga": {
+    "icon": "https://www.serebii.net/conquest/bushou/n16.png",
+    "perfectLinks": [
+      "audino"
+    ],
+    "types": [
+      "normal",
+      "fire"
+    ]
+  },
+  "rikyu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n6.png",
+    "perfectLinks": [
+      "pansage",
+      "simisage"
+    ],
+    "types": [
+      "grass",
+      "fire"
+    ]
+  },
+  "hideyori": {
+    "icon": "https://www.serebii.net/conquest/bushou/n12.png",
+    "perfectLinks": [
+      "chimchar",
+      "monferno",
+      "infernape"
+    ],
+    "types": [
+      "fire"
+    ]
+  },
+  "asahi": {
+    "icon": "https://www.serebii.net/conquest/bushou/n7.png",
+    "perfectLinks": [
+      "drilbur",
+      "excadrill"
+    ],
+    "types": [
+      "ground",
+      "fire"
+    ]
+  },
+  "kazutoyo": {
+    "icon": "https://www.serebii.net/conquest/bushou/n15.png",
+    "perfectLinks": [
+      "tepig",
+      "pignite",
+      "emboar"
+    ],
+    "types": [
+      "fire"
+    ]
+  },
+  "nagayasu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n17.png",
+    "perfectLinks": [
+      "darumaka",
+      "darmanitan"
+    ],
+    "types": [
+      "fire"
+    ]
+  },
+  "harunaga": {
+    "icon": "https://www.serebii.net/conquest/bushou/n18.png",
+    "perfectLinks": [
+      "darumaka",
+      "darmanitan"
+    ],
+    "types": [
+      "fire"
+    ]
+  },
+  "hideaki": {
+    "icon": "https://www.serebii.net/conquest/bushou/n19.png",
+    "perfectLinks": [
+      "venipede",
+      "whirlipede",
+      "scolipede"
+    ],
+    "types": [
+      "bug",
+      "fire"
+    ]
+  },
+  "naka": {
+    "icon": "https://www.serebii.net/conquest/bushou/n20.png",
+    "perfectLinks": [
+      "drilbur",
+      "excadrill"
+    ],
+    "types": [
+      "normal",
+      "fire"
+    ]
+  },
+  "tatsuko": {
+    "icon": "https://www.serebii.net/conquest/bushou/n8.png",
+    "perfectLinks": [
+      "tepig",
+      "pignite",
+      "emboar"
+    ],
+    "types": [
+      "fire"
+    ]
+  },
+  "maa": {
+    "icon": "https://www.serebii.net/conquest/bushou/n7.png",
+    "perfectLinks": [
+      "litwick",
+      "lampent",
+      "chandelure"
+    ],
+    "types": [
+      "ghost",
+      "fire"
+    ]
+  },
+  "chiyo": {
+    "icon": "https://www.serebii.net/conquest/bushou/n8.png",
+    "perfectLinks": [
+      "igglybuff",
+      "jigglypuff",
+      "wigglytuff"
+    ],
+    "types": [
+      "normal"
+    ]
+  },
+  "hatsume": {
+    "icon": "https://www.serebii.net/conquest/bushou/n21.png",
+    "perfectLinks": [
+      "pawniard",
+      "bisharp"
+    ],
+    "types": [
+      "steel",
+      "fire"
+    ]
+  },
+  "nobuchika": {
+    "icon": "https://www.serebii.net/conquest/bushou/n15.png",
+    "perfectLinks": [
+      "magikarp",
+      "gyarados"
+    ],
+    "types": [
+      "water"
+    ]
+  },
+  "chikayasu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n3.png",
+    "perfectLinks": [
+      "oshawott",
+      "dewott",
+      "samurott"
+    ],
+    "types": [
+      "water"
+    ]
+  },
+  "morichika": {
+    "icon": "https://www.serebii.net/conquest/bushou/n12.png",
+    "perfectLinks": [
+      "oshawott",
+      "dewott",
+      "samurott"
+    ],
+    "types": [
+      "water"
+    ]
+  },
+  "chikamasa": {
+    "icon": "https://www.serebii.net/conquest/bushou/n17.png",
+    "perfectLinks": [
+      "wooper",
+      "quagsire"
+    ],
+    "types": [
+      "water"
+    ]
+  },
+  "norishige": {
+    "icon": "https://www.serebii.net/conquest/bushou/n3.png",
+    "perfectLinks": [
+      "mareep",
+      "flaaffy",
+      "ampharos"
+    ],
+    "types": [
+      "electric",
+      "water"
+    ]
+  },
+  "takayori": {
+    "icon": "https://www.serebii.net/conquest/bushou/n15.png",
+    "perfectLinks": [
+      "panpour",
+      "simipour"
+    ],
+    "types": [
+      "electric",
+      "water"
+    ]
+  },
+  "tadasumi": {
+    "icon": "https://www.serebii.net/conquest/bushou/n19.png",
+    "perfectLinks": [
+      "blitzle",
+      "zebstrika"
+    ],
+    "types": [
+      "electric",
+      "water"
+    ]
+  },
+  "dosetsu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n22.png",
+    "perfectLinks": [
+      "shinx",
+      "luxio",
+      "luxray"
+    ],
+    "types": [
+      "electric"
+    ]
+  },
+  "shoun": {
+    "icon": "https://www.serebii.net/conquest/bushou/n4.png",
+    "perfectLinks": [
+      "mareep",
+      "flaaffy",
+      "ampharos"
+    ],
+    "types": [
+      "electric"
+    ]
+  },
+  "sorin": {
+    "icon": "https://www.serebii.net/conquest/bushou/n2.png",
+    "perfectLinks": [
+      "pichu",
+      "pikachu",
+      "raichu"
+    ],
+    "types": [
+      "dark",
+      "electric"
+    ]
+  },
+  "sekiso": {
+    "icon": "https://www.serebii.net/conquest/bushou/n23.png",
+    "perfectLinks": [
+      "joltik",
+      "galvantula"
+    ],
+    "types": [
+      "electric"
+    ]
+  },
+  "akizane": {
+    "icon": "https://www.serebii.net/conquest/bushou/n6.png",
+    "perfectLinks": [
+      "pichu",
+      "pikachu",
+      "raichu"
+    ],
+    "types": [
+      "electric"
+    ]
+  },
+  "takatane": {
+    "icon": "https://www.serebii.net/conquest/bushou/n19.png",
+    "perfectLinks": [
+      "shinx",
+      "luxio",
+      "luxray"
+    ],
+    "types": [
+      "electric"
+    ]
+  },
+  "kiyo": {
+    "icon": "https://www.serebii.net/conquest/bushou/n7.png",
+    "perfectLinks": [
+      "blitzle",
+      "zebstrika"
+    ],
+    "types": [
+      "motoharu"
+    ]
+  },
+  "motoharu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n13.png",
+    "perfectLinks": [
+      "axew",
+      "fraxure",
+      "haxorus"
+    ],
+    "types": [
+      "dragon",
+      "grass"
+    ]
+  },
+  "takakage": {
+    "icon": "https://www.serebii.net/conquest/bushou/n24.png",
+    "perfectLinks": [
+      "treecko",
+      "grovyle",
+      "sceptile"
+    ],
+    "types": [
+      "grass"
+    ]
+  },
+  "terumoto": {
+    "icon": "https://www.serebii.net/conquest/bushou/n13.png",
+    "perfectLinks": [
+      "petilil",
+      "lilligant"
+    ],
+    "types": [
+      "grass"
+    ]
+  },
+  "takeyoshi": {
+    "icon": "https://www.serebii.net/conquest/bushou/n10.png",
+    "perfectLinks": [
+      "magikarp",
+      "gyarados"
+    ],
+    "types": [
+      "water",
+      "grass"
+    ]
+  },
+  "ekei": {
+    "icon": "https://www.serebii.net/conquest/bushou/n23.png",
+    "perfectLinks": [
+      "carnavine"
+    ],
+    "types": [
+      "grass"
+    ]
+  },
+  "takamoto": {
+    "icon": "https://www.serebii.net/conquest/bushou/n19.png",
+    "perfectLinks": [
+      "snivy",
+      "servine",
+      "serperior"
+    ],
+    "types": [
+      "grass"
+    ]
+  },
+  "sadatoshi": {
+    "icon": "https://www.serebii.net/conquest/bushou/n18.png",
+    "perfectLinks": [
+      "cottonee",
+      "whimsicott"
+    ],
+    "types": [
+      "grass"
+    ]
+  },
+  "hidemitsu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n13.png",
+    "perfectLinks": [
+      "lapras"
+    ],
+    "types": [
+      "ice"
+    ]
+  },
+  "toshimitsu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n5.png",
+    "perfectLinks": [
+      "sneasel",
+      "weavile"
+    ],
+    "types": [
+      "ice"
+    ]
+  },
+  "shigemoto": {
+    "icon": "https://www.serebii.net/conquest/bushou/n3.png",
+    "perfectLinks": [
+      "cubchoo",
+      "beartic"
+    ],
+    "types": [
+      "ice"
+    ]
+  },
+  "mishitada": {
+    "icon": "https://www.serebii.net/conquest/bushou/n17.png",
+    "perfectLinks": [
+      "spheal",
+      "sealeo",
+      "walrein"
+    ],
+    "types": [
+      "ice"
+    ]
+  },
+  "yukimasa": {
+    "icon": "https://www.serebii.net/conquest/bushou/n18.png",
+    "perfectLinks": [
+      "spheal",
+      "sealeo",
+      "walrein"
+    ],
+    "types": [
+      "ice"
+    ]
+  },
+  "tadaoki": {
+    "icon": "https://www.serebii.net/conquest/bushou/n12.png",
+    "perfectLinks": [
+      "gothita",
+      "gothorita",
+      "gothitelle"
+    ],
+    "types": [
+      "psychic",
+      "ice"
+    ]
+  },
+  "fujitaka": {
+    "icon": "https://www.serebii.net/conquest/bushou/n11.png",
+    "perfectLinks": [
+      "lapras"
+    ],
+    "types": [
+      "psychic",
+      "ice"
+    ]
+  },
+  "hiroko": {
+    "icon": "https://www.serebii.net/conquest/bushou/n7.png",
+    "perfectLinks": [
+      "snorunt",
+      "froslass"
+    ],
+    "types": [
+      "ice"
+    ]
+  },
+  "tadamoto": {
+    "icon": "https://www.serebii.net/conquest/bushou/n5.png",
+    "perfectLinks": [
+      "croagunk",
+      "toxicroak"
+    ],
+    "types": [
+      "fight"
+    ]
+  },
+  "tadatsune": {
+    "icon": "https://www.serebii.net/conquest/bushou/n17.png",
+    "perfectLinks": [
+      "machop",
+      "machoke",
+      "machamp"
+    ],
+    "types": [
+      "fight"
+    ]
+  },
+  "takahisa": {
+    "icon": "https://www.serebii.net/conquest/bushou/n22.png",
+    "perfectLinks": [
+      "timburr",
+      "gurdurr",
+      "conkeldurr"
+    ],
+    "types": [
+      "fight"
+    ]
+  },
+  "hisaaki": {
+    "icon": "https://www.serebii.net/conquest/bushou/n24.png",
+    "perfectLinks": [
+      "scraggy",
+      "scrafty"
+    ],
+    "types": [
+      "fight"
+    ]
+  },
+  "masatoshi": {
+    "icon": "https://www.serebii.net/conquest/bushou/n17.png",
+    "perfectLinks": [
+      "machop",
+      "machoke",
+      "machamp"
+    ],
+    "types": [
+      "fight"
+    ]
+  },
+  "kanemori": {
+    "icon": "https://www.serebii.net/conquest/bushou/n24.png",
+    "perfectLinks": [
+      "croagunk",
+      "toxicroak"
+    ],
+    "types": [
+      "fight"
+    ]
+  },
+  "tokitaka": {
+    "icon": "https://www.serebii.net/conquest/bushou/n1.png",
+    "perfectLinks": [
+      "timburr",
+      "gurdurr",
+      "conkeldurr"
+    ],
+    "types": [
+      "fire",
+      "fight"
+    ]
+  },
+  "sandayu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n9.png",
+    "perfectLinks": [
+      "zubat",
+      "golbat",
+      "crobat"
+    ],
+    "types": [
+      "poison"
+    ]
+  },
+  "morikiyo": {
+    "icon": "https://www.serebii.net/conquest/bushou/n9.png",
+    "perfectLinks": [
+      "croagunk",
+      "toxicroak"
+    ],
+    "types": [
+      "poison"
+    ]
+  },
+  "kashinkoji": {
+    "icon": "https://www.serebii.net/conquest/bushou/n1.png",
+    "perfectLinks": [
+      "skorupi",
+      "drapion"
+    ],
+    "types": [
+      "poison"
+    ]
+  },
+  "yasunaga": {
+    "icon": "https://www.serebii.net/conquest/bushou/n25.png",
+    "perfectLinks": [
+      "venipede",
+      "whirlipede",
+      "scolipede"
+    ],
+    "types": [
+      "seikuro"
+    ]
+  },
+  "seikuro": {
+    "icon": "https://www.serebii.net/conquest/bushou/n26.png",
+    "perfectLinks": [
+      "skorupi",
+      "drapion"
+    ],
+    "types": [
+      "poison"
+    ]
+  },
+  "katsuyori": {
+    "icon": "https://www.serebii.net/conquest/bushou/n13.png",
+    "perfectLinks": [
+      "larvitar",
+      "pupitar",
+      "tyranitar"
+    ],
+    "types": [
+      "rock",
+      "ground"
+    ]
+  },
+  "haruyuki": {
+    "icon": "https://www.serebii.net/conquest/bushou/n2.png",
+    "perfectLinks": [
+      "rufflet",
+      "braviary"
+    ],
+    "types": [
+      "flying",
+      "ground"
+    ]
+  },
+  "masakage": {
+    "icon": "https://www.serebii.net/conquest/bushou/n4.png",
+    "perfectLinks": [
+      "charmander",
+      "charmeleon",
+      "charizard"
+    ],
+    "types": [
+      "fire",
+      "ground"
+    ]
+  },
+  "masatoyo": {
+    "icon": "https://www.serebii.net/conquest/bushou/n22.png",
+    "perfectLinks": [
+      "rhyhorn",
+      "rhydon",
+      "rhyperior"
+    ],
+    "types": [
+      "ground"
+    ]
+  },
+  "nobufusa": {
+    "icon": "https://www.serebii.net/conquest/bushou/n3.png",
+    "perfectLinks": [
+      "onix",
+      "steelix"
+    ],
+    "types": [
+      "ground"
+    ]
+  },
+  "masayuki": {
+    "icon": "https://www.serebii.net/conquest/bushou/n5.png",
+    "perfectLinks": [
+      "larvesta",
+      "volcarona"
+    ],
+    "types": [
+      "fire",
+      "ground"
+    ]
+  },
+  "yukitaka": {
+    "icon": "https://www.serebii.net/conquest/bushou/n22.png",
+    "perfectLinks": [
+      "sandile",
+      "krokorok",
+      "krookodile"
+    ],
+    "types": [
+      "fire",
+      "ground"
+    ]
+  },
+  "ume": {
+    "icon": "https://www.serebii.net/conquest/bushou/n7.png",
+    "perfectLinks": [
+      "drilbur",
+      "excadrill"
+    ],
+    "types": [
+      "ground"
+    ]
+  },
+  "chiyome": {
+    "icon": "https://www.serebii.net/conquest/bushou/n27.png",
+    "perfectLinks": [
+      "spiritomb"
+    ],
+    "types": [
+      "dark",
+      "ground"
+    ]
+  },
+  "kei": {
+    "icon": "https://www.serebii.net/conquest/bushou/n8.png",
+    "perfectLinks": [
+      "drilbur",
+      "excadrill"
+    ],
+    "types": [
+      "fire",
+      "ground"
+    ]
+  },
+  "kagetsuna": {
+    "icon": "https://www.serebii.net/conquest/bushou/n2.png",
+    "perfectLinks": [
+      "dratini",
+      "dragonair",
+      "dragonite"
+    ],
+    "types": [
+      "dragon",
+      "flying"
+    ]
+  },
+  "shigezane": {
+    "icon": "https://www.serebii.net/conquest/bushou/n4.png",
+    "perfectLinks": [
+      "scyther",
+      "scizor"
+    ],
+    "types": [
+      "bug",
+      "flying"
+    ]
+  },
+  "tsunamoto": {
+    "icon": "https://www.serebii.net/conquest/bushou/n22.png",
+    "perfectLinks": [
+      "snorunt",
+      "glalie"
+    ],
+    "types": [
+      "ice",
+      "flying"
+    ]
+  },
+  "tsunenaga": {
+    "icon": "https://www.serebii.net/conquest/bushou/n10.png",
+    "perfectLinks": [
+      "emolga"
+    ],
+    "types": [
+      "flying"
+    ]
+  },
+  "munetoki": {
+    "icon": "https://www.serebii.net/conquest/bushou/n17.png",
+    "perfectLinks": [
+      "rufflet",
+      "braviary"
+    ],
+    "types": [
+      "dragon",
+      "flying"
+    ]
+  },
+  "munezane": {
+    "icon": "https://www.serebii.net/conquest/bushou/n24.png",
+    "perfectLinks": [
+      "starly",
+      "staravia",
+      "staraptor"
+    ],
+    "types": [
+      "flying"
+    ]
+  },
+  "yoshi": {
+    "icon": "https://www.serebii.net/conquest/bushou/n27.png",
+    "perfectLinks": [
+      "zubat",
+      "golbat",
+      "crobat"
+    ],
+    "types": [
+      "flying"
+    ]
+  },
+  "iroha": {
+    "icon": "https://www.serebii.net/conquest/bushou/n8.png",
+    "perfectLinks": [
+      "emolga"
+    ],
+    "types": [
+      "flying"
+    ]
+  },
+  "kagekatsu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n4.png",
+    "perfectLinks": [
+      "ralts",
+      "kirlia",
+      "gallade"
+    ],
+    "types": [
+      "psychic"
+    ]
+  },
+  "yoshikiyo": {
+    "icon": "https://www.serebii.net/conquest/bushou/n5.png",
+    "perfectLinks": [
+      "cubchoo",
+      "beartic"
+    ],
+    "types": [
+      "ice",
+      "psychic"
+    ]
+  },
+  "tomonobu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n13.png",
+    "perfectLinks": [
+      "raltz",
+      "kirlia",
+      "gardevoir"
+    ],
+    "types": [
+      "psychic"
+    ]
+  },
+  "kageie": {
+    "icon": "https://www.serebii.net/conquest/bushou/n4.png",
+    "perfectLinks": [
+      "larvitar",
+      "pupitar",
+      "tyranitar"
+    ],
+    "types": [
+      "rock",
+      "psychic"
+    ]
+  },
+  "takahiro": {
+    "icon": "https://www.serebii.net/conquest/bushou/n12.png",
+    "perfectLinks": [
+      "abra",
+      "kadabra",
+      "alakazam"
+    ],
+    "types": [
+      "dark",
+      "psychic"
+    ]
+  },
+  "sadamitsu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n1.png",
+    "perfectLinks": [
+      "munna",
+      "musharna"
+    ],
+    "types": [
+      "psychic"
+    ]
+  },
+  "yataro": {
+    "icon": "https://www.serebii.net/conquest/bushou/n17.png",
+    "perfectLinks": [
+      "treecko",
+      "grovyle",
+      "sceptile"
+    ],
+    "types": [
+      "grass",
+      "psychic"
+    ]
+  },
+  "saneyori": {
+    "icon": "https://www.serebii.net/conquest/bushou/n1.png",
+    "perfectLinks": [
+      "chingling",
+      "chimecho"
+    ],
+    "types": [
+      "psychic"
+    ]
+  },
+  "hana": {
+    "icon": "https://www.serebii.net/conquest/bushou/n8.png",
+    "perfectLinks": [
+      "munna",
+      "musharna"
+    ],
+    "types": [
+      "psychic"
+    ]
+  },
+  "sen": {
+    "icon": "https://www.serebii.net/conquest/bushou/n7.png",
+    "perfectLinks": [
+      "chingling",
+      "chimecho"
+    ],
+    "types": [
+      "psychic"
+    ]
+  },
+  "ujichika": {
+    "icon": "https://www.serebii.net/conquest/bushou/n11.png",
+    "perfectLinks": [
+      "sewaddle",
+      "swadloon",
+      "leavanny"
+    ],
+    "types": [
+      "bug"
+    ]
+  },
+  "ujizane": {
+    "icon": "https://www.serebii.net/conquest/bushou/n11.png",
+    "perfectLinks": [
+      "pineco",
+      "forretress"
+    ],
+    "types": [
+      "bug"
+    ]
+  },
+  "sessai": {
+    "icon": "https://www.serebii.net/conquest/bushou/n23.png",
+    "perfectLinks": [
+      "larvesta",
+      "volcarona"
+    ],
+    "types": [
+      "ice",
+      "bug"
+    ]
+  },
+  "masatsuna": {
+    "icon": "https://www.serebii.net/conquest/bushou/n3.png",
+    "perfectLinks": [
+      "beedrill"
+    ],
+    "types": [
+      "bug"
+    ]
+  },
+  "yasutomo": {
+    "icon": "https://www.serebii.net/conquest/bushou/n13.png",
+    "perfectLinks": [
+      "joltik",
+      "galvantula"
+    ],
+    "types": [
+      "bug"
+    ]
+  },
+  "ujihiro": {
+    "icon": "https://www.serebii.net/conquest/bushou/n18.png",
+    "perfectLinks": [
+      "sewaddle",
+      "swadloon",
+      "leavanny"
+    ],
+    "types": [
+      "bug"
+    ]
+  },
+  "motozane": {
+    "icon": "https://www.serebii.net/conquest/bushou/n18.png",
+    "perfectLinks": [
+      "joltik",
+      "galvantula"
+    ],
+    "types": [
+      "bug"
+    ]
+  },
+  "sena": {
+    "icon": "https://www.serebii.net/conquest/bushou/n27.png",
+    "perfectLinks": [
+      "beedrill"
+    ],
+    "types": [
+      "bug"
+    ]
+  },
+  "sôun": {
+    "icon": "https://www.serebii.net/conquest/bushou/n22.png",
+    "perfectLinks": [
+      "larvitar",
+      "pupitar",
+      "tyranitar"
+    ],
+    "types": [
+      "rock"
+    ]
+  },
+  "tsunashige": {
+    "icon": "https://www.serebii.net/conquest/bushou/n5.png",
+    "perfectLinks": [
+      "roggenrola",
+      "boldore",
+      "gigalith"
+    ],
+    "types": [
+      "fight",
+      "rock"
+    ]
+  },
+  "gen'an": {
+    "icon": "https://www.serebii.net/conquest/bushou/n23.png",
+    "perfectLinks": [
+      "onix",
+      "steelix"
+    ],
+    "types": [
+      "rock"
+    ]
+  },
+  "ujimasa": {
+    "icon": "https://www.serebii.net/conquest/bushou/n3.png",
+    "perfectLinks": [
+      "anorith",
+      "armaldo"
+    ],
+    "types": [
+      "rock"
+    ]
+  },
+  "ujiteru": {
+    "icon": "https://www.serebii.net/conquest/bushou/n12.png",
+    "perfectLinks": [
+      "shieldon",
+      "bastiodon"
+    ],
+    "types": [
+      "rock"
+    ]
+  },
+  "ujikuni": {
+    "icon": "https://www.serebii.net/conquest/bushou/n13.png",
+    "perfectLinks": [
+      "anorith",
+      "armaldo"
+    ],
+    "types": [
+      "rock"
+    ]
+  },
+  "ujinao": {
+    "icon": "https://www.serebii.net/conquest/bushou/n24.png",
+    "perfectLinks": [
+      "anorith",
+      "armaldo"
+    ],
+    "types": [
+      "rock"
+    ]
+  },
+  "shizuka": {
+    "icon": "https://www.serebii.net/conquest/bushou/n8.png",
+    "perfectLinks": [
+      "rhyhorn",
+      "rhydon",
+      "rhyperior"
+    ],
+    "types": [
+      "rock"
+    ]
+  },
+  "madoka": {
+    "icon": "https://www.serebii.net/conquest/bushou/n8.png",
+    "perfectLinks": [
+      "roggenrola",
+      "boldore",
+      "gigalith"
+    ],
+    "types": [
+      "rock"
+    ]
+  },
+  "dosan": {
+    "icon": "https://www.serebii.net/conquest/bushou/n16.png",
+    "perfectLinks": [
+      "ekans",
+      "arbok"
+    ],
+    "types": [
+      "poison",
+      "ghost"
+    ]
+  },
+  "yoshitatsu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n4.png",
+    "perfectLinks": [
+      "gastly",
+      "haunter",
+      "gengar"
+    ],
+    "types": [
+      "poison",
+      "ghost"
+    ]
+  },
+  "ittetsu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n13.png",
+    "perfectLinks": [
+      "duskull",
+      "dusclops",
+      "dusknoir"
+    ],
+    "types": [
+      "steel",
+      "ghost"
+    ]
+  },
+  "bokuzen": {
+    "icon": "https://www.serebii.net/conquest/bushou/n24.png",
+    "perfectLinks": [
+      "ghastly",
+      "haunter",
+      "gengar"
+    ],
+    "types": [
+      "ghost"
+    ]
+  },
+  "morinari": {
+    "icon": "https://www.serebii.net/conquest/bushou/n19.png",
+    "perfectLinks": [
+      "duskull",
+      "dusclops",
+      "dusknoir"
+    ],
+    "types": [
+      "ghost"
+    ]
+  },
+  "omi": {
+    "icon": "https://www.serebii.net/conquest/bushou/n7.png",
+    "perfectLinks": [
+      "beedrill"
+    ],
+    "types": [
+      "poison",
+      "ghost"
+    ]
+  },
+  "asa": {
+    "icon": "https://www.serebii.net/conquest/bushou/n7.png",
+    "perfectLinks": [
+      "drifloon",
+      "drifblim"
+    ],
+    "types": [
+      "poison",
+      "ghost"
+    ]
+  },
+  "shimoyama": {
+    "icon": "https://www.serebii.net/conquest/bushou/n26.png",
+    "perfectLinks": [
+      "scraggy",
+      "scrafty"
+    ],
+    "types": [
+      "dark"
+    ]
+  },
+  "genba": {
+    "icon": "https://www.serebii.net/conquest/bushou/n25.png",
+    "perfectLinks": [
+      "scraggy",
+      "scrafty"
+    ],
+    "types": [
+      "flying",
+      "dark"
+    ]
+  },
+  "danzo": {
+    "icon": "https://www.serebii.net/conquest/bushou/n26.png",
+    "perfectLinks": [
+      "spiritomb"
+    ],
+    "types": [
+      "flying",
+      "dark"
+    ]
+  },
+  "yazaemon": {
+    "icon": "https://www.serebii.net/conquest/bushou/n25.png",
+    "perfectLinks": [
+      "ekans",
+      "arbok"
+    ],
+    "types": [
+      "poison",
+      "dark"
+    ]
+  },
+  "isuke": {
+    "icon": "https://www.serebii.net/conquest/bushou/n25.png",
+    "perfectLinks": [
+      "sandile",
+      "krokorok",
+      "krookodile"
+    ],
+    "types": [
+      "dark"
+    ]
+  },
+  "tadatsugu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n22.png",
+    "perfectLinks": [
+      "aron",
+      "lairon",
+      "aggron"
+    ],
+    "types": [
+      "steel"
+    ]
+  },
+  "naomasa": {
+    "icon": "https://www.serebii.net/conquest/bushou/n4.png",
+    "perfectLinks": [
+      "tepig",
+      "pignite",
+      "emboar"
+    ],
+    "types": [
+      "fire",
+      "steel"
+    ]
+  },
+  "yasumasa": {
+    "icon": "https://www.serebii.net/conquest/bushou/n4.png",
+    "perfectLinks": [
+      "dratini",
+      "dragonair",
+      "dragonite"
+    ],
+    "types": [
+      "dragon",
+      "steel"
+    ]
+  },
+  "masanobu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n2.png",
+    "perfectLinks": [
+      "litwick",
+      "lampent",
+      "chandelure"
+    ],
+    "types": [
+      "ghost",
+      "fire"
+    ]
+  },
+  "hidetada": {
+    "icon": "https://www.serebii.net/conquest/bushou/n12.png",
+    "perfectLinks": [
+      "pawniard",
+      "bisharp"
+    ],
+    "types": [
+      "pawniard",
+      "bisharp"
+    ]
+  },
+  "kazumasa": {
+    "icon": "https://www.serebii.net/conquest/bushou/n2.png",
+    "perfectLinks": [
+      "shieldon",
+      "bastiodon"
+    ],
+    "types": [
+      "steel"
+    ]
+  },
+  "choan": {
+    "icon": "https://www.serebii.net/conquest/bushou/n16.png",
+    "perfectLinks": [
+      "bidoof",
+      "bibarel"
+    ],
+    "types": [
+      "normal",
+      "steel"
+    ]
+  },
+  "tenkai": {
+    "icon": "https://www.serebii.net/conquest/bushou/n23.png",
+    "perfectLinks": [
+      "misdreavus",
+      "mismagius"
+    ],
+    "types": [
+      "ghost",
+      "steel"
+    ]
+  },
+  "munenori": {
+    "icon": "https://www.serebii.net/conquest/bushou/n3.png",
+    "perfectLinks": [
+      "scyther",
+      "scizor"
+    ],
+    "types": [
+      "bug",
+      "steel"
+    ]
+  },
+  "kame": {
+    "icon": "https://www.serebii.net/conquest/bushou/n21.png",
+    "perfectLinks": [
+      "pineco",
+      "forretress"
+    ],
+    "types": [
+      "bug",
+      "steel"
+    ]
+  },
+  "toku": {
+    "icon": "https://www.serebii.net/conquest/bushou/n7.png",
+    "perfectLinks": [
+      "aron",
+      "lairon",
+      "aggron"
+    ],
+    "types": [
+      "steel"
+    ]
+  },
+  "saizo": {
+    "icon": "https://www.serebii.net/conquest/bushou/n9.png",
+    "perfectLinks": [
+      "gastly",
+      "haunter",
+      "gengar"
+    ],
+    "types": [
+      "ghost",
+      "fire"
+    ]
+  },
+  "sasuke": {
+    "icon": "https://www.serebii.net/conquest/bushou/n26.png",
+    "perfectLinks": [
+      "chimchar",
+      "monferno",
+      "infernape"
+    ],
+    "types": [
+      "flying",
+      "fire"
+    ]
+  },
+  "katsu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n21.png",
+    "perfectLinks": [
+      "aron",
+      "lairon",
+      "aggron"
+    ],
+    "types": [
+      "steel"
+    ]
+  },
+  "juzo": {
+    "icon": "https://www.serebii.net/conquest/bushou/n25.png",
+    "perfectLinks": [
+      "pansear",
+      "simisear"
+    ],
+    "types": [
+      "fire"
+    ]
+  },
+  "tsuru": {
+    "icon": "https://www.serebii.net/conquest/bushou/n8.png",
+    "perfectLinks": [
+      "misdreavus",
+      "mismagius"
+    ],
+    "types": [
+      "ghost"
+    ]
+  },
+  "ise": {
+    "icon": "https://www.serebii.net/conquest/bushou/n21.png",
+    "perfectLinks": [
+      "gothita",
+      "gothorita",
+      "gothitelle"
+    ],
+    "types": [
+      "psychic"
+    ]
+  },
+  "jinpachi": {
+    "icon": "https://www.serebii.net/conquest/bushou/n10.png",
+    "perfectLinks": [
+      "misdreavus",
+      "mismagius"
+    ],
+    "types": [
+      "ghost",
+      "fire"
+    ]
+  },
+  "kamanosuke": {
+    "icon": "https://www.serebii.net/conquest/bushou/n14.png",
+    "perfectLinks": [
+      "scyther",
+      "scizor"
+    ],
+    "types": [
+      "bug",
+      "free"
+    ]
+  },
+  "seikai": {
+    "icon": "https://www.serebii.net/conquest/bushou/n14.png",
+    "perfectLinks": [
+      "timburr",
+      "gurdurr",
+      "conkeldurr"
+    ],
+    "types": [
+      "fight",
+      "fire"
+    ]
+  },
+  "isa": {
+    "icon": "https://www.serebii.net/conquest/bushou/n14.png",
+    "perfectLinks": [
+      "machop",
+      "machoke",
+      "machamp"
+    ],
+    "types": [
+      "fight"
+    ]
+  },
+  "yoshiteru": {
+    "icon": "https://www.serebii.net/conquest/bushou/n11.png",
+    "perfectLinks": [
+      "beldum",
+      "metang",
+      "metagross"
+    ],
+    "types": [
+      "steel"
+    ]
+  },
+  "yoshiaki": {
+    "icon": "https://www.serebii.net/conquest/bushou/n11.png",
+    "perfectLinks": [
+      "carnivine"
+    ],
+    "types": [
+      "grass",
+      "dragon"
+    ]
+  },
+  "hisahide": {
+    "icon": "https://www.serebii.net/conquest/bushou/n5.png",
+    "perfectLinks": [
+      "deino",
+      "zweilous",
+      "hydreigon"
+    ],
+    "types": [
+      "dark"
+    ]
+  },
+  "jubei": {
+    "icon": "https://www.serebii.net/conquest/bushou/n3.png",
+    "perfectLinks": [
+      "ralts",
+      "kirlia",
+      "gallade"
+    ],
+    "types": [
+      "psychic",
+      "steel"
+    ]
+  },
+  "nobutsuna": {
+    "icon": "https://www.serebii.net/conquest/bushou/n5.png",
+    "perfectLinks": [
+      "beldum",
+      "metang",
+      "metagross"
+    ],
+    "types": [
+      "steel"
+    ]
+  },
+  "bokuden": {
+    "icon": "https://www.serebii.net/conquest/bushou/n5.png",
+    "perfectLinks": [
+      "shieldon",
+      "bastiodon"
+    ],
+    "types": [
+      "steel"
+    ]
+  },
+  "otsu": {
+    "icon": "https://www.serebii.net/conquest/bushou/n21.png",
+    "perfectLinks": [
+      "drifloon",
+      "drifblim"
+    ],
+    "types": [
+      "flying"
+    ]
+  },
+  "nobunaga": {
+    "icon": "https://www.serebii.net/conquest/bushou/2-2.png",
+    "perfectLinks": [
+      "hydreigon",
+      "zekrom",
+      "rayquaza"
+    ],
+    "types": [
+      "dragon",
+      "electric"
+    ]
+  },
+  "oichi": {
+    "icon": "https://www.serebii.net/conquest/bushou/3-1.png",
+    "perfectLinks": [
+      "jigglypuff",
+      "wigglytuff"
+    ],
+    "types": [
+      "normal",
+      "dragon"
+    ]
+  },
+  "hideyoshi": {
+    "icon": "https://www.serebii.net/conquest/bushou/4-1.png",
+    "perfectLinks": [
+      "monferno",
+      "infernape",
+      "reshiram"
+    ],
+    "types": [
+      "fire",
+      "fight"
+    ]
+  },
+  "motochika": {
+    "icon": "https://www.serebii.net/conquest/bushou/5-1.png",
+    "perfectLinks": [
+      "dewott",
+      "samurott"
+    ],
+    "types": [
+      "water"
+    ]
+  },
+  "ginchiyo": {
+    "icon": "https://www.serebii.net/conquest/bushou/6-1.png",
+    "perfectLinks": [
+      "luxio",
+      "luxray"
+    ],
+    "types": [
+      "electric"
+    ]
+  },
+  "motonari": {
+    "icon": "https://www.serebii.net/conquest/bushou/7-1.png",
+    "perfectLinks": [
+      "servine",
+      "serperior"
+    ],
+    "types": [
+      "grass"
+    ]
+  },
+  "mitsuhide": {
+    "icon": "https://www.serebii.net/conquest/bushou/8-1.png",
+    "perfectLinks": [
+      "lapras",
+      "articuno"
+    ],
+    "types": [
+      "ice",
+      "flying"
+    ]
+  },
+  "yoshihiro": {
+    "icon": "https://www.serebii.net/conquest/bushou/9-1.png",
+    "perfectLinks": [
+      "gurdurr",
+      "conkeldurr"
+    ],
+    "types": [
+      "fight"
+    ]
+  },
+  "nene": {
+    "icon": "https://www.serebii.net/conquest/bushou/10-1.png",
+    "perfectLinks": [
+      "golbat",
+      "crobat"
+    ],
+    "types": [
+      "poison",
+      "flying"
+    ]
+  },
+  "shingen": {
+    "icon": "https://www.serebii.net/conquest/bushou/11-1.png",
+    "perfectLinks": [
+      "rhyperior",
+      "groudon"
+    ],
+    "types": [
+      "ground",
+      "rock"
+    ]
+  },
+  "masamune": {
+    "icon": "https://www.serebii.net/conquest/bushou/12-1.png",
+    "perfectLinks": [
+      "rufflet",
+      "braviary"
+    ],
+    "types": [
+      "flying"
+    ]
+  },
+  "kenshin": {
+    "icon": "https://www.serebii.net/conquest/bushou/13-1.png",
+    "perfectLinks": [
+      "gallade",
+      "mewtwo"
+    ],
+    "types": [
+      "psychic",
+      "fight"
+    ]
+  },
+  "yoshimoto": {
+    "icon": "https://www.serebii.net/conquest/bushou/14-1.png",
+    "perfectLinks": [
+      "pineco",
+      "forretress"
+    ],
+    "types": [
+      "bug",
+      "steel"
+    ]
+  },
+  "ujiyasu": {
+    "icon": "https://www.serebii.net/conquest/bushou/15-1.png",
+    "perfectLinks": [
+      "boldore",
+      "gigalith"
+    ],
+    "types": [
+      "rock"
+    ]
+  },
+  "no": {
+    "icon": "https://www.serebii.net/conquest/bushou/16-1.png",
+    "perfectLinks": [
+      "misdreavus",
+      "mismagius"
+    ],
+    "types": [
+      "ghost",
+      "dragon"
+    ]
+  },
+  "kotaro": {
+    "icon": "https://www.serebii.net/conquest/bushou/17-1.png",
+    "perfectLinks": [
+      "zorua",
+      "zoroark"
+    ],
+    "types": [
+      "dark"
+    ]
+  },
+  "ieyasu": {
+    "icon": "https://www.serebii.net/conquest/bushou/18-1.png",
+    "perfectLinks": [
+      "aggron",
+      "registeel"
+    ],
+    "types": [
+      "steel",
+      "rock"
+    ]
+  },
+  "hanbei": {
+    "icon": "https://www.serebii.net/conquest/bushou/19-1.png",
+    "perfectLinks": [
+      "pikachu",
+      "raichu"
+    ],
+    "types": [
+      "electric",
+      "fire"
+    ]
+  },
+  "kanbei": {
+    "icon": "https://www.serebii.net/conquest/bushou/20-1.png",
+    "perfectLinks": [
+      "lampent",
+      "chandelure"
+    ],
+    "types": [
+      "ghost",
+      "fire"
+    ]
+  },
+  "muneshige": {
+    "icon": "https://www.serebii.net/conquest/bushou/21-1.png",
+    "perfectLinks": [
+      "staravia",
+      "staraptor"
+    ],
+    "types": [
+      "flying",
+      "normal"
+    ]
+  },
+  "gracia": {
+    "icon": "https://www.serebii.net/conquest/bushou/22-1.png",
+    "perfectLinks": [
+      "gothorita",
+      "gothitelle"
+    ],
+    "types": [
+      "psychic",
+      "ice"
+    ]
+  },
+  "hanzo": {
+    "icon": "https://www.serebii.net/conquest/bushou/23-1.png",
+    "perfectLinks": [
+      "haunter",
+      "gengar"
+    ],
+    "types": [
+      "ghost",
+      "dark"
+    ]
+  },
+  "kunoichi": {
+    "icon": "https://www.serebii.net/conquest/bushou/24-1.png",
+    "perfectLinks": [
+      "sneasel",
+      "weavile"
+    ],
+    "types": [
+      "dark",
+      "ice"
+    ]
+  },
+  "yukimura": {
+    "icon": "https://www.serebii.net/conquest/bushou/25-1.png",
+    "perfectLinks": [
+      "charmeleon",
+      "charizard"
+    ],
+    "types": [
+      "fire",
+      "flying"
+    ]
+  },
+  "magoichi": {
+    "icon": "https://www.serebii.net/conquest/bushou/26-1.png",
+    "perfectLinks": [
+      "grovyle",
+      "sceptile"
+    ],
+    "types": [
+      "grass",
+      "flying"
+    ]
+  },
+  "kanetsugu": {
+    "icon": "https://www.serebii.net/conquest/bushou/27-1.png",
+    "perfectLinks": [
+      "kadabra",
+      "alakazam"
+    ],
+    "types": [
+      "kadabra",
+      "alakazam"
+    ]
+  },
+  "aya": {
+    "icon": "https://www.serebii.net/conquest/bushou/28-1.png",
+    "perfectLinks": [
+      "snorunt",
+      "froslass"
+    ],
+    "types": [
+      "ice",
+      "ghost"
+    ]
+  },
+  "kai": {
+    "icon": "https://www.serebii.net/conquest/bushou/29-1.png",
+    "perfectLinks": [
+      "darumaka",
+      "darmanitan"
+    ],
+    "types": [
+      "fire",
+      "rock"
+    ]
+  },
+  "okuni": {
+    "icon": "https://www.serebii.net/conquest/bushou/30-1.png",
+    "perfectLinks": [
+      "larvesta",
+      "volcarona"
+    ],
+    "types": [
+      "bug",
+      "fire"
+    ]
+  },
+  "ranmaru": {
+    "icon": "https://www.serebii.net/conquest/bushou/31-1.png",
+    "perfectLinks": [
+      "riolu",
+      "lucario"
+    ],
+    "types": [
+      "fight",
+      "steel"
+    ]
+  },
+  "tadakatsu": {
+    "icon": "https://www.serebii.net/conquest/bushou/32-1.png",
+    "perfectLinks": [
+      "metagross",
+      "dialga"
+    ],
+    "types": [
+      "steel",
+      "dragon"
+    ]
+  },
+  "ina": {
+    "icon": "https://www.serebii.net/conquest/bushou/33-1.png",
+    "perfectLinks": [
+      "prinplup",
+      "empoleon"
+    ],
+    "types": [
+      "water",
+      "steel"
+    ]
+  },
+  "keiji": {
+    "icon": "https://www.serebii.net/conquest/bushou/34-1.png",
+    "perfectLinks": [
+      "bastiodon",
+      "terrakion"
+    ],
+    "types": [
+      "rock",
+      "fight"
+    ]
+  },
+  "mitsunari": {
+    "icon": "https://www.serebii.net/conquest/bushou/35-1.png",
+    "perfectLinks": [
+      "pawniard",
+      "bisharp"
+    ],
+    "types": [
+      "steel",
+      "dark"
+    ]
+  },
+  "kiyomasa": {
+    "icon": "https://www.serebii.net/conquest/bushou/36-1.png",
+    "perfectLinks": [
+      "fraxure",
+      "haxorus"
+    ],
+    "types": [
+      "dragon",
+      "ground"
+    ]
+  },
+  "masanori": {
+    "icon": "https://www.serebii.net/conquest/bushou/37-1.png",
+    "perfectLinks": [
+      "krokorok",
+      "krookodile"
+    ],
+    "types": [
+      "ground",
+      "dark"
+    ]
+  }
+}
