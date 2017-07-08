@@ -29,16 +29,16 @@ const Name = Grid.extend`
 const CurrentPokemon = Grid.extend`
   margin-left: 5px;
   padding: 5px;
-  background: #bbb;
-  border: 2px solid ${({ perfect }) => perfect ? 'darkgray' : 'darkred'};
+  background: ${({ perfect }) => perfect ? '#b7ccb7' : '#ccb7b7'};
+  border: 2px solid ${({ perfect }) => perfect ? 'green' : 'darkred'};
   border-radius: 3px;
 `;
 
 const PerfectLink = Grid.extend`
   margin: 5px;
   padding: 5px;
-  background: ${({ isHere }) => isHere ? '#b7c2cc' : '#bbb'};
-  border: 2px solid ${({ isHere }) => isHere ? 'slategray' : 'darkgray'};
+  background: ${({ isHere }) => isHere ? '#b7ccb7' : '#bbb'};
+  border: 2px solid ${({ isHere }) => isHere ? 'green' : 'darkgray'};
   border-radius: 3px;
 `;
 
