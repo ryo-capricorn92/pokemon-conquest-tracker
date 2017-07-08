@@ -37,12 +37,20 @@ const CurrentPokemon = Grid.extend`
 const PerfectLink = Grid.extend`
   margin: 5px;
   padding: 5px;
-  background: #bbb;
-  border: 2px solid darkgray;
+  background: ${({ isHere }) => isHere ? '#b7c2cc' : '#bbb'};
+  border: 2px solid ${({ isHere }) => isHere ? 'slategray' : 'darkgray'};
   border-radius: 3px;
 `;
 
-const Warrior = ({ warrior }) => {
+const Warrior = ({ warrior, region }) => {
+  const inThisRegion = (poke) => {
+    if (!warrior.perfectLinks.includes(warrior.current) && pokemon[poke].region.includes(region)) {
+      return true;
+    }
+
+    return false;
+  };
+
   const hasPerfectPokemon = (current, perfects) => perfects.includes(current);
 
   return (
@@ -55,7 +63,7 @@ const Warrior = ({ warrior }) => {
       </Name>
       <Grid align="flex-end" shrink>
         {warrior.perfectLinks.map(poke => (
-          <PerfectLink key={poke}>
+          <PerfectLink key={poke} isHere={inThisRegion(poke)}>
             <img src={pokemon[poke].icon} alt={poke} width="45px" height="45px" />
           </PerfectLink>
         ))}
@@ -72,6 +80,7 @@ const Warrior = ({ warrior }) => {
 };
 
 Warrior.propTypes = {
+  region: PropTypes.string.isRequired,
   warrior: PropTypes.shape().isRequired,
 };
 

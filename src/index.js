@@ -20,7 +20,7 @@ registerServiceWorker();
 
 
 const obj = {
-  Aurora: {
+  aurora: {
     warriors: [
       {
         name: 'tsunehisa',
@@ -46,6 +46,18 @@ const obj = {
           'dark',
         ],
         current: 'rhyhorn',
+      },
+      {
+        name: 'chacha',
+        icon: 'https://www.serebii.net/conquest/bushou/n7.png',
+        perfectLinks: [
+          'minccino',
+          'cinccino',
+        ],
+        types: [
+          'normal',
+        ],
+        current: 'meowth',
       },
     ],
   },

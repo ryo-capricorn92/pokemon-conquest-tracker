@@ -2,6 +2,8 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import styled from 'styled-components';
 
+import { prettyPrint } from '../../utils';
+
 import Grid from './Grid';
 import Warrior from './Warrior';
 
@@ -25,11 +27,11 @@ const WarriorContainer = Grid.extend`
 
 const Region = ({ name, warriors }) => (
   <Wrapper column>
-    <Title>{name}</Title>
+    <Title>{prettyPrint(name)}</Title>
     <Grid column>
       {warriors.map(warrior => (
         <WarriorContainer key={warrior.name}>
-          <Warrior warrior={warrior} />
+          <Warrior warrior={warrior} region={name} />
         </WarriorContainer>
       ))}
     </Grid>
