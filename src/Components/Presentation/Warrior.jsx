@@ -8,15 +8,16 @@ import { prettyPrint } from '../../utils';
 
 const Wrapper = Grid.extend`
   padding: 10px;
-  background: #93B1A7;
-  border: 2px solid #7A918D;
+  background: #ccc;
+  border: 2px solid #888;
   border-radius: 15px;
-  color: #7A918D;
+  color: #888;
 `;
 
 const Avatar = Grid.extend`
   padding: 5px;
-  border: 1px solid #7A918D;
+  background: #bbb;
+  border: 2px solid #777;
   border-radius: 3px;
 `;
 
@@ -26,15 +27,18 @@ const Name = Grid.extend`
 `;
 
 const CurrentPokemon = Grid.extend`
+  margin-left: 5px;
   padding: 5px;
-  border: 1px solid #7A918D;
+  background: #bbb;
+  border: 2px solid #777;
   border-radius: 3px;
 `;
 
 const PerfectLink = Grid.extend`
   margin: 5px;
   padding: 5px;
-  border: 1px solid #7A918D;
+  background: #bbb;
+  border: 2px solid #777;
   border-radius: 3px;
 `;
 

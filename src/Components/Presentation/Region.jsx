@@ -7,10 +7,10 @@ import Warrior from './Warrior';
 
 const Wrapper = Grid.extend`
   padding: 20px;
-  background: pink;
-  border: 2px solid lightpink;
+  background: #ddd;
+  border: 2px solid #999;
   border-radius: 15px;
-  color: lightpink;
+  color: #999;
 `;
 
 const Title = styled.h3`
