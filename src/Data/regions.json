@@ -1,21 +1,21 @@
 {
   "regions": [
-    "Aurora",
-    "Ignis",
-    "Greenleaf",
-    "Fontaine",
-    "Violight",
-    "Chrysalia",
-    "Pugilis",
-    "Illusio",
-    "Terrera",
-    "Cragspur",
-    "Viperia",
-    "Yaksha",
-    "Avia",
-    "Valora",
-    "Spectra",
-    "Nixtorm",
-    "Dragnor"
+    "aurora",
+    "ignis",
+    "greenleaf",
+    "fontaine",
+    "violight",
+    "chrysalia",
+    "pugilis",
+    "illusio",
+    "terrera",
+    "cragspur",
+    "viperia",
+    "yaksha",
+    "avia",
+    "valora",
+    "spectra",
+    "nixtorm",
+    "dragnor"
   ]
 }
