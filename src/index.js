@@ -32,6 +32,7 @@ const obj = {
         types: [
           'normal',
         ],
+        current: 'meowth',
       },
       {
         name: 'naoie',
@@ -44,6 +45,7 @@ const obj = {
         types: [
           'dark',
         ],
+        current: 'rhyhorn',
       },
     ],
   },
