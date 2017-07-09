@@ -7,7 +7,7 @@ import warriors from '../../Data/warriors.json';
 
 import Grid from './Grid';
 
-const AddWarrior = ({ updateRegion }) => {
+const AddWarrior = ({ ransei, updateRegion }) => {
   const addWarrior = (e) => {
     e.preventDefault();
     console.log(e.target.warrior.value);
@@ -17,12 +17,21 @@ const AddWarrior = ({ updateRegion }) => {
     return false;
   };
 
+  const unobtainedWarriors = () => {
+    const ownedWarriors = Object.keys(ransei).reduce((prev, region) => (
+      [...prev, ...ransei[region].warriors.map(warrior => warrior.name)]
+    ), []);
+    return ownedWarriors.reduce((prev, warrior) => (
+      prev.filter(owned => owned !== warrior)
+    ), Object.keys(warriors));
+  };
+
   return (
     <form action="#" onSubmit={addWarrior}>
       <label htmlFor="warrior">Add A Warrior</label>
       <input list="warriors" name="warrior" />
       <datalist id="warriors">
-        {Object.keys(warriors).map(warrior => (
+        {unobtainedWarriors().map(warrior => (
           <option value={prettyPrint(warrior)} key={warrior} />
         ))}
       </datalist>
@@ -32,6 +41,7 @@ const AddWarrior = ({ updateRegion }) => {
 };
 
 AddWarrior.propTypes = {
+  ransei: PropTypes.shape.isRequired,
   updateRegion: PropTypes.func.isRequired,
 };
 
