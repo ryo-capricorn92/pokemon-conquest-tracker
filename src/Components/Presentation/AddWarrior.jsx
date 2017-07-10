@@ -35,6 +35,12 @@ const AddWarrior = ({ ransei, updateRegion }) => {
           <option value={prettyPrint(warrior)} key={warrior} />
         ))}
       </datalist>
+      <input list="regions" name="region" />
+      <datalist id="regions">
+        {Object.keys(ransei).map(region => (
+          <option value={prettyPrint(region)} key={region} />
+        ))}
+      </datalist>
       <input type="submit" />
     </form>
   );
