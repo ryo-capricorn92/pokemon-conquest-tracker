@@ -50,7 +50,7 @@ class App extends Component {
         <Header justify="space-around">
           Pokemon Conquest Tracker
         </Header>
-        <Grid row justify="space-around">
+        <Grid row>
           <AddWarrior updateRegion={this.updateRegion} ransei={this.state.ransei} />
         </Grid>
         <Grid column>
