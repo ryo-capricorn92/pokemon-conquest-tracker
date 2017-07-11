@@ -10,9 +10,13 @@ import Grid from './Grid';
 const AddWarrior = ({ ransei, updateRegion }) => {
   const addWarrior = (e) => {
     e.preventDefault();
-    console.log(e.target.warrior.value);
-    const newRegion = 'aurora';
-    // updateRegion(newRegion);
+    const warrior = e.target.warrior.value.trim().toLowerCase();
+    const region = e.target.region.value.trim().toLowerCase();
+    const newWarriors = ransei[region].warriors.slice();
+    newWarriors.push(Object.assign({
+      name: warrior,
+    }, warriors[warrior]));
+    updateRegion(region, newWarriors);
 
     return false;
   };

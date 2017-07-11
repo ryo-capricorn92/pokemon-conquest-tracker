@@ -33,15 +33,15 @@ class App extends Component {
   }
 
   setAllState(newState) {
-    localStorage.setItem('ransei', newState.ransei);
+    localStorage.setItem('ransei', JSON.stringify(newState.ransei));
     this.setState(newState);
   }
 
   updateRegion(region, warriors) {
-    const newState = Object.assign({}, this.state.ransei);
-    newState[region].warriors = warriors;
+    const newRansei = Object.assign({}, this.state.ransei);
+    newRansei[region].warriors = warriors;
 
-    this.setAllState(newState);
+    this.setAllState({ ransei: newRansei });
   }
 
   render() {
