@@ -71,9 +71,14 @@ const Warrior = ({ warrior, region }) => {
       <CurrentPokemon
         width="145px"
         justify="center"
+        align="center"
         perfect={hasPerfectPokemon(warrior.current, warrior.perfectLinks)}
       >
-        <img src={pokemon[warrior.current].icon} alt={warrior.current} />
+        {warrior.current ? (
+          <img src={pokemon[warrior.current].icon} alt={warrior.current} />
+        ) : (
+          <i className="fa fa-gitlab fa-4x" aria-hidden="true" />
+        )}
       </CurrentPokemon>
     </Wrapper>
   );
