@@ -25,13 +25,13 @@ const WarriorContainer = Grid.extend`
   padding: 15px;
 `;
 
-const Region = ({ name, warriors }) => (
+const Region = ({ name, updateRegion, warriors }) => (
   <Wrapper column>
     <Title>{prettyPrint(name)}</Title>
     <Grid column>
       {warriors.map(warrior => (
         <WarriorContainer key={warrior.name}>
-          <Warrior warrior={warrior} region={name} />
+          <Warrior warrior={warrior} warriors={warriors} region={name} updateRegion={updateRegion} />
         </WarriorContainer>
       ))}
     </Grid>
