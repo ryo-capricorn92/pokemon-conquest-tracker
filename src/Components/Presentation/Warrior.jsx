@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
+import styled from 'styled-components';
 
 import Grid from './Grid';
 
@@ -43,6 +44,13 @@ const PerfectLink = Grid.extend`
   border-radius: 3px;
 `;
 
+const Input = styled.input`
+  margin: 5px;
+  background-color: #fafafa;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+`;
+
 const AddPokemon = Grid.extend`
   visibility: ${({ active }) => active ? 'inherit' : 'hidden'};
 `;
@@ -66,12 +74,25 @@ class Warrior extends Component {
     };
 
     this.triggerPokemonChange = this.triggerPokemonChange.bind(this);
+    this.removePokemonChange = this.removePokemonChange.bind(this);
     this.changePokemon = this.changePokemon.bind(this);
+  }
+
+  componentDidMount() {
+    if (this.state.showPokeChange) {
+      this.pokeInput.focus();
+    }
   }
 
   triggerPokemonChange() {
     this.setState({
       showPokeChange: true,
+    });
+  }
+
+  removePokemonChange() {
+    this.setState({
+      showPokeChange: false,
     });
   }
 
@@ -101,15 +122,18 @@ class Warrior extends Component {
         <Grid column shrink>
           <AddPokemon align="center" row active={this.state.showPokeChange}>
             <form action="#" onSubmit={this.changePokemon}>
-              <input list="pokemans" name="pokemon" />
+              <Input
+                list="pokemans"
+                name="pokemon"
+                onBlur={this.removePokemonChange}
+                innerRef={(input) => { this.pokeInput = input; }}
+              />
               <datalist id="pokemans">
                 {Object.keys(pokemon).map(poke => (
                   <option value={prettyPrint(poke)} key={poke} />
                 ))}
               </datalist>
-              <p>
-                <input type="submit" />
-              </p>
+              <input type="submit" style={{ display: 'none' }} />
             </form>
           </AddPokemon>
           <Grid align="flex-end" justify="flex-end" row>
