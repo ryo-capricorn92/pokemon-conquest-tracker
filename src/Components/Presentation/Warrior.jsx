@@ -78,6 +78,7 @@ class Warrior extends Component {
   changePokemon(e) {
     e.preventDefault();
     const newCurrent = e.target.pokemon.value.trim().toLowerCase();
+    e.target.pokemon.value = '';
     const i = this.props.warriors.indexOf(this.props.warrior);
     this.props.warriors[i].current = newCurrent;
     this.setState({
