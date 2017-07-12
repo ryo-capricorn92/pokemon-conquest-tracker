@@ -110,7 +110,7 @@ class Warrior extends Component {
   }
 
   render() {
-    const { warrior, warriors, region } = this.props;
+    const { warrior, region } = this.props;
     return (
       <Wrapper row>
         <Avatar width="145px" justify="center">
@@ -164,7 +164,13 @@ class Warrior extends Component {
 
 Warrior.propTypes = {
   region: PropTypes.string.isRequired,
+  updateRegion: PropTypes.func.isRequired,
   warrior: PropTypes.shape().isRequired,
+  warriors: PropTypes.arrayOf(PropTypes.shape()),
+};
+
+Warrior.defaultProps = {
+  warriors: [],
 };
 
 export default Warrior;

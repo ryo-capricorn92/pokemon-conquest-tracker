@@ -40,6 +40,7 @@ const Region = ({ name, updateRegion, warriors }) => (
 
 Region.propTypes = {
   name: PropTypes.string.isRequired,
+  updateRegion: PropTypes.func.isRequired,
   warriors: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string.isRequired,
