@@ -26,6 +26,7 @@ class App extends Component {
 
     this.state = {
       ransei: props.ransei,
+      selected: null,
     };
 
     this.setAllState = this.setAllState.bind(this);
@@ -42,6 +43,37 @@ class App extends Component {
     newRansei[region].warriors = warriors;
 
     this.setAllState({ ransei: newRansei });
+  }
+
+  selectWarrior(warrior, oldRegion) {
+    if (this.state.selected) {
+      const firstWarrior = this.state.selected.warrior;
+      const firstRegion = this.state.selected.region;
+      const ransei = this.state.ransei;
+      if (ransei[oldRegion].warriors.length < 5) {
+        ransei[oldRegion].warriors.push(this.state.warrior);
+        const i = ransei[firstRegion].warriors.find(war => war === firstWarrior);
+        ransei[firstRegion].warriors.slice(i, 1);
+      } else {
+        let i;
+        i = ransei[firstRegion].warriors.find(war => war === firstWarrior);
+        ransei[firstRegion].warriors[i] = warrior;
+        i = ransei[oldRegion].warriors.find(war => war === warrior);
+        ransei[oldRegion].warriors[i] = firstWarrior;
+      }
+
+      this.setState({
+        ransei: this.state.ransei,
+        selected: null,
+      });
+    } else {
+      this.setState({
+        selected: {
+          warrior,
+          region: oldRegion,
+        },
+      });
+    }
   }
 
   render() {
