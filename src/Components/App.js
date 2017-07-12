@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import Grid from './Presentation/Grid';
 import Header from './Presentation/Header';
 import Region from './Presentation/Region';
+import AddWarrior from './Presentation/AddWarrior';
 
 import { regions } from '../Data/regions.json';
 // import warriors from '../Data/warriors.json';
@@ -32,15 +33,15 @@ class App extends Component {
   }
 
   setAllState(newState) {
-    localStorage.setItem('ransei', newState.ransei);
+    localStorage.setItem('ransei', JSON.stringify(newState.ransei));
     this.setState(newState);
   }
 
   updateRegion(region, warriors) {
-    const newState = Object.assign({}, this.state.ransei);
-    newState[region].warriors = warriors;
+    const newRansei = Object.assign({}, this.state.ransei);
+    newRansei[region].warriors = warriors;
 
-    this.setAllState(newState);
+    this.setAllState({ ransei: newRansei });
   }
 
   render() {
@@ -49,9 +50,12 @@ class App extends Component {
         <Header justify="space-around">
           Pokemon Conquest Tracker
         </Header>
-        <Grid wrap>
+        <Grid row>
+          <AddWarrior updateRegion={this.updateRegion} ransei={this.state.ransei} />
+        </Grid>
+        <Grid column>
           {regions.map(region => (
-            <RegionContainer sm="12" md="6" key={region}>
+            <RegionContainer key={region}>
               <Region
                 name={region}
                 warriors={this.state.ransei[region].warriors}
