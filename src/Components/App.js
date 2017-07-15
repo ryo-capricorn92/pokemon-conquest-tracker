@@ -56,20 +56,14 @@ class App extends Component {
         const firstWarrior = this.state.selected.warrior;
         const firstRegion = this.state.selected.region;
         const ransei = this.state.ransei;
-        if (ransei[oldRegion].warriors.length < 5) {
-          ransei[oldRegion].warriors.push(this.state.warrior);
-          const i = ransei[firstRegion].warriors.find(war => war === firstWarrior);
-          ransei[firstRegion].warriors.slice(i, 1);
-        } else {
-          let i;
-          i = ransei[firstRegion].warriors.find(war => war === firstWarrior);
-          ransei[firstRegion].warriors[i] = warrior;
-          i = ransei[oldRegion].warriors.find(war => war === warrior);
-          ransei[oldRegion].warriors[i] = firstWarrior;
-        }
+        let i;
+        i = ransei[firstRegion].warriors.indexOf(firstWarrior);
+        ransei[firstRegion].warriors[i] = warrior;
+        i = ransei[oldRegion].warriors.indexOf(warrior);
+        ransei[oldRegion].warriors[i] = firstWarrior;
 
         this.setState({
-          ransei: this.state.ransei,
+          ransei,
           selected: null,
         });
       }
@@ -80,6 +74,17 @@ class App extends Component {
           region: oldRegion,
         },
       });
+    }
+  }
+
+  moveWarrior(region) {
+    if (this.state.ransei[region].warriors < 5) {
+      const warrior = this.state.selected.warrior;
+      const firstRegion = this.state.selected.region;
+      const ransei = this.state.ransei;
+      ransei[region].warriors.push(warrior);
+      const i = ransei[firstRegion].warriors.find(war => war === warrior);
+      ransei[firstRegion].warriors.slice(i, 1);
     }
   }
 
