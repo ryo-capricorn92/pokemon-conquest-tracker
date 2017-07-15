@@ -31,6 +31,7 @@ class App extends Component {
 
     this.setAllState = this.setAllState.bind(this);
     this.updateRegion = this.updateRegion.bind(this);
+    this.selectWarrior = this.selectWarrior.bind(this);
   }
 
   setAllState(newState) {
@@ -47,25 +48,31 @@ class App extends Component {
 
   selectWarrior(warrior, oldRegion) {
     if (this.state.selected) {
-      const firstWarrior = this.state.selected.warrior;
-      const firstRegion = this.state.selected.region;
-      const ransei = this.state.ransei;
-      if (ransei[oldRegion].warriors.length < 5) {
-        ransei[oldRegion].warriors.push(this.state.warrior);
-        const i = ransei[firstRegion].warriors.find(war => war === firstWarrior);
-        ransei[firstRegion].warriors.slice(i, 1);
+      if (this.state.selected.warrior === warrior) {
+        this.setState({
+          selected: null,
+        });
       } else {
-        let i;
-        i = ransei[firstRegion].warriors.find(war => war === firstWarrior);
-        ransei[firstRegion].warriors[i] = warrior;
-        i = ransei[oldRegion].warriors.find(war => war === warrior);
-        ransei[oldRegion].warriors[i] = firstWarrior;
-      }
+        const firstWarrior = this.state.selected.warrior;
+        const firstRegion = this.state.selected.region;
+        const ransei = this.state.ransei;
+        if (ransei[oldRegion].warriors.length < 5) {
+          ransei[oldRegion].warriors.push(this.state.warrior);
+          const i = ransei[firstRegion].warriors.find(war => war === firstWarrior);
+          ransei[firstRegion].warriors.slice(i, 1);
+        } else {
+          let i;
+          i = ransei[firstRegion].warriors.find(war => war === firstWarrior);
+          ransei[firstRegion].warriors[i] = warrior;
+          i = ransei[oldRegion].warriors.find(war => war === warrior);
+          ransei[oldRegion].warriors[i] = firstWarrior;
+        }
 
-      this.setState({
-        ransei: this.state.ransei,
-        selected: null,
-      });
+        this.setState({
+          ransei: this.state.ransei,
+          selected: null,
+        });
+      }
     } else {
       this.setState({
         selected: {
@@ -92,6 +99,8 @@ class App extends Component {
                 name={region}
                 warriors={this.state.ransei[region].warriors}
                 updateRegion={this.updateRegion}
+                selectWarrior={this.selectWarrior}
+                selected={this.state.selected ? this.state.selected.warrior : null}
               />
             </RegionContainer>
           ))}

@@ -25,21 +25,30 @@ const WarriorContainer = Grid.extend`
   padding: 15px;
 `;
 
-const Region = ({ name, updateRegion, warriors }) => (
+const Region = ({ name, selected, selectWarrior, updateRegion, warriors }) => (
   <Wrapper column>
     <Title>{prettyPrint(name)}</Title>
     <Grid column>
       {warriors.map(warrior => (
         <WarriorContainer key={warrior.name}>
-          <Warrior warrior={warrior} warriors={warriors} region={name} updateRegion={updateRegion} />
+          <Warrior
+            warrior={warrior}
+            warriors={warriors}
+            region={name}
+            updateRegion={updateRegion}
+            selected={selected}
+            selectWarrior={selectWarrior}
+          />
         </WarriorContainer>
-      ))}
+        ))}
     </Grid>
   </Wrapper>
-);
+  );
 
 Region.propTypes = {
   name: PropTypes.string.isRequired,
+  selected: PropTypes.shape(),
+  selectWarrior: PropTypes.func.isRequired,
   updateRegion: PropTypes.func.isRequired,
   warriors: PropTypes.arrayOf(
     PropTypes.shape({
@@ -50,6 +59,7 @@ Region.propTypes = {
 };
 
 Region.defaultProps = {
+  selected: null,
   warriors: [],
 };
 

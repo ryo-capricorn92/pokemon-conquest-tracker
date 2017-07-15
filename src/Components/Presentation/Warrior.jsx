@@ -9,8 +9,8 @@ import { prettyPrint } from '../../utils';
 
 const Wrapper = Grid.extend`
   padding: 10px;
-  background: #ccc;
-  border: 2px solid #888;
+  background: ${({ selected }) => selected ? '#b7cacc' : '#ccc'};
+  border: 2px solid ${({ selected }) => selected ? '#438387' : '#888'};
   border-radius: 15px;
   color: #888;
 `;
@@ -20,6 +20,7 @@ const Avatar = Grid.extend`
   background: #bbb;
   border: 2px solid darkgray;
   border-radius: 3px;
+  cursor: pointer;
 `;
 
 const Name = Grid.extend`
@@ -65,6 +66,8 @@ const inThisRegion = (poke, warrior, region) => {
 
 const hasPerfectPokemon = (current, perfects) => perfects.includes(current);
 
+const isSelected = (warrior, selected) => warrior === selected;
+
 class Warrior extends Component {
   constructor(props) {
     super(props);
@@ -76,6 +79,7 @@ class Warrior extends Component {
     this.triggerPokemonChange = this.triggerPokemonChange.bind(this);
     this.removePokemonChange = this.removePokemonChange.bind(this);
     this.changePokemon = this.changePokemon.bind(this);
+    this.selectThisWarrior = this.selectThisWarrior.bind(this);
   }
 
   componentDidMount() {
@@ -109,11 +113,15 @@ class Warrior extends Component {
     this.props.updateRegion(this.props.region, this.props.warriors);
   }
 
+  selectThisWarrior() {
+    this.props.selectWarrior(this.props.warrior, this.props.region);
+  }
+
   render() {
-    const { warrior, region } = this.props;
+    const { selected, warrior, region } = this.props;
     return (
-      <Wrapper row>
-        <Avatar width="145px" justify="center">
+      <Wrapper row selected={isSelected(warrior, selected)}>
+        <Avatar width="145px" justify="center" onClick={this.selectThisWarrior}>
           <img src={warrior.icon} alt="name" />
         </Avatar>
         <Name align="center">
@@ -164,12 +172,15 @@ class Warrior extends Component {
 
 Warrior.propTypes = {
   region: PropTypes.string.isRequired,
+  selected: PropTypes.shape(),
+  selectWarrior: PropTypes.func.isRequired,
   updateRegion: PropTypes.func.isRequired,
   warrior: PropTypes.shape().isRequired,
   warriors: PropTypes.arrayOf(PropTypes.shape()),
 };
 
 Warrior.defaultProps = {
+  selected: null,
   warriors: [],
 };
 
