@@ -32,6 +32,7 @@ class App extends Component {
     this.setAllState = this.setAllState.bind(this);
     this.updateRegion = this.updateRegion.bind(this);
     this.selectWarrior = this.selectWarrior.bind(this);
+    this.moveWarrior = this.moveWarrior.bind(this);
   }
 
   setAllState(newState) {
@@ -62,13 +63,13 @@ class App extends Component {
         i = ransei[oldRegion].warriors.indexOf(warrior);
         ransei[oldRegion].warriors[i] = firstWarrior;
 
-        this.setState({
+        this.setAllState({
           ransei,
           selected: null,
         });
       }
     } else {
-      this.setState({
+      this.setAllState({
         selected: {
           warrior,
           region: oldRegion,
@@ -78,13 +79,18 @@ class App extends Component {
   }
 
   moveWarrior(region) {
-    if (this.state.ransei[region].warriors < 5) {
+    if (this.state.selected && this.state.ransei[region].warriors < 5) {
       const warrior = this.state.selected.warrior;
       const firstRegion = this.state.selected.region;
       const ransei = this.state.ransei;
       ransei[region].warriors.push(warrior);
-      const i = ransei[firstRegion].warriors.find(war => war === warrior);
-      ransei[firstRegion].warriors.slice(i, 1);
+      const i = ransei[firstRegion].warriors.indexOf(warrior);
+      ransei[firstRegion].warriors.splice(i, 1);
+
+      this.setAllState({
+        ransei,
+        selected: null,
+      });
     }
   }
 
@@ -105,6 +111,7 @@ class App extends Component {
                 warriors={this.state.ransei[region].warriors}
                 updateRegion={this.updateRegion}
                 selectWarrior={this.selectWarrior}
+                moveWarrior={this.moveWarrior}
                 selected={this.state.selected ? this.state.selected.warrior : null}
               />
             </RegionContainer>
