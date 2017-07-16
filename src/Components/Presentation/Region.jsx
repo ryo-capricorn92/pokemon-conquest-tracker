@@ -32,7 +32,7 @@ const Region = ({ moveWarrior, name, selected, selectWarrior, updateRegion, warr
   };
 
   const containsPerfect = () => {
-    if (selected) {
+    if (selected && !selected.perfectLinks.includes(selected.current)) {
       for (let i = 0; i < selected.perfectLinks.length; i += 1) {
         if (pokemon[selected.perfectLinks[i]].region.includes(name)) {
           return true;
