@@ -7,7 +7,7 @@ import registerServiceWorker from './registerServiceWorker';
 import './main.css';
 import { regions } from './Data/regions.json';
 
-const ransei = JSON.parse(localStorage.getItem('ransei')) || {};
+const ransei = localStorage.getItem('ransei')[0] === '{' ? JSON.parse(localStorage.getItem('ransei')) : {};
 
 regions.forEach((region) => {
   ransei[region] = ransei[region] || {
