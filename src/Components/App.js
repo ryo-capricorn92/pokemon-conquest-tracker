@@ -108,7 +108,13 @@ class App extends Component {
   resetWarriors() {
     // eslint-disable-next-line
     if (confirm('Are you sure you want to reset your regions? You will lose all game data.')) {
-      console.log('reset');
+      const ransei = Object.assign({}, this.state.ransei);
+      regions.forEach((region) => {
+        ransei[region].warriors = [];
+      });
+      this.setAllState({
+        ransei,
+      });
     }
   }
 
