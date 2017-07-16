@@ -1,6 +1,7 @@
 /* global localStorage */
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
+import styled from 'styled-components';
 
 import Grid from './Presentation/Grid';
 import Header from './Presentation/Header';
@@ -18,6 +19,15 @@ const MainContainer = Grid.extend`
 
 const RegionContainer = Grid.extend`
   padding: 15px;
+`;
+
+const Reset = styled.button`
+  width: 200px;
+  margin: 20px;
+  background-color: #e5cece;
+  border: 1px solid #7f0000;
+  color: #7f0000;
+  border-radius: 5px;
 `;
 
 class App extends Component {
@@ -116,6 +126,9 @@ class App extends Component {
               />
             </RegionContainer>
           ))}
+        </Grid>
+        <Grid row justify="center">
+          <Reset>Reset Game</Reset>
         </Grid>
       </MainContainer>
     );
