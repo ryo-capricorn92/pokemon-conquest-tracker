@@ -1,4 +1,21 @@
 {
+  "hero": {
+    "icon": "https://www.serebii.net/conquest/bushou/1f-1.png",
+    "perfectLinks": [
+      "eevee",
+      "vaporeon",
+      "flareon",
+      "jolteon",
+      "espeon",
+      "umbreon",
+      "leafeon",
+      "glaceon",
+      "arceus"
+    ],
+    "types": [
+      "normal"
+    ]
+  },
   "tsunehisa": {
     "icon": "https://www.serebii.net/conquest/bushou/n1.png",
     "perfectLinks": [
