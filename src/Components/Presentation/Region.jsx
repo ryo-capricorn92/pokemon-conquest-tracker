@@ -3,14 +3,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { prettyPrint } from '../../utils';
+import pokemon from '../../Data/pokemon.json';
 
 import Grid from './Grid';
 import Warrior from './Warrior';
 
 const Wrapper = Grid.extend`
   padding: 20px;
-  background: #ddd;
-  border: 2px solid #999;
+  background: ${({ contains }) => contains ? '#b7ccb7' : '#ddd'};
+  border: 2px solid ${({ contains }) => contains ? 'green' : '#999'};
   border-radius: 15px;
   color: #999;
 `;
@@ -30,8 +31,20 @@ const Region = ({ moveWarrior, name, selected, selectWarrior, updateRegion, warr
     moveWarrior(name);
   };
 
+  const containsPerfect = () => {
+    if (selected) {
+      for (let i = 0; i < selected.perfectLinks.length; i += 1) {
+        if (pokemon[selected.perfectLinks[i]].region.includes(name)) {
+          return true;
+        }
+      }
+    }
+
+    return false;
+  };
+
   return (
-    <Wrapper column>
+    <Wrapper column contains={containsPerfect()}>
       <Title onClick={handleClick}>{prettyPrint(name)}</Title>
       <Grid column>
         {warriors.map(warrior => (
