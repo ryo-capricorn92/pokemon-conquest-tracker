@@ -94,7 +94,7 @@ const AddWarrior = ({ ransei, updateRegion }) => {
 };
 
 AddWarrior.propTypes = {
-  ransei: PropTypes.shape.isRequired,
+  ransei: PropTypes.shape().isRequired,
   updateRegion: PropTypes.func.isRequired,
 };
 
