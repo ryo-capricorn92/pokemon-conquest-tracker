@@ -127,8 +127,8 @@ class Warrior extends Component {
         <Name align="center">
           {prettyPrint(warrior.name)}
         </Name>
-        <Grid column shrink>
-          <AddPokemon align="center" row active={this.state.showPokeChange}>
+        <Grid column shrink style={{ minWidth: 0 }}>
+          <AddPokemon align="flex-end" justify="flex-end" row active={this.state.showPokeChange}>
             <form action="#" onSubmit={this.changePokemon}>
               <Input
                 list="pokemans"
@@ -145,23 +145,11 @@ class Warrior extends Component {
             </form>
           </AddPokemon>
           <Grid align="flex-end" justify="flex-end" row>
-            {warrior.perfectLinks.map((poke, i) => {
-              if (i < 5) {
-                return (
-                  <PerfectLink key={poke} isHere={inThisRegion(poke, warrior, region)} shrink>
-                    <img src={pokemon[poke].icon} alt={poke} width="45px" height="45px" />
-                  </PerfectLink>
-                );
-              }
-
-              if (i === 5) {
-                return (
-                  <i className="fa fa-ellipsis-h fa-4x" aria-hidden="true" key="cont" />
-                );
-              }
-
-              return undefined;
-            })}
+            {warrior.perfectLinks.map(poke => (
+              <PerfectLink key={poke} isHere={inThisRegion(poke, warrior, region)} shrink>
+                <img src={pokemon[poke].icon} alt={poke} width="45px" height="45px" />
+              </PerfectLink>
+            ))}
           </Grid>
         </Grid>
         <CurrentPokemon

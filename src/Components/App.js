@@ -90,7 +90,7 @@ class App extends Component {
   }
 
   moveWarrior(region) {
-    if (this.state.selected && this.state.ransei[region].warriors.length < 5) {
+    if (this.state.selected && this.state.ransei[region].warriors.length < 6) {
       const warrior = this.state.selected.warrior;
       const firstRegion = this.state.selected.region;
       const ransei = this.state.ransei;
