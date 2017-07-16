@@ -41,13 +41,16 @@ const AddWarrior = ({ ransei, updateRegion }) => {
     e.preventDefault();
     const warrior = e.target.warrior.value.trim().toLowerCase();
     const region = e.target.region.value.trim().toLowerCase();
-    e.target.warrior.value = '';
-    e.target.region.value = '';
-    const newWarriors = ransei[region].warriors.slice();
-    newWarriors.push(Object.assign({
-      name: warrior,
-    }, warriors[warrior]));
-    updateRegion(region, newWarriors);
+
+    if (ransei[region].warriors.length < 6) {
+      e.target.warrior.value = '';
+      e.target.region.value = '';
+      const newWarriors = ransei[region].warriors.slice();
+      newWarriors.push(Object.assign({
+        name: warrior,
+      }, warriors[warrior]));
+      updateRegion(region, newWarriors);
+    }
 
     return false;
   };
