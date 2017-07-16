@@ -43,6 +43,7 @@ class App extends Component {
     this.updateRegion = this.updateRegion.bind(this);
     this.selectWarrior = this.selectWarrior.bind(this);
     this.moveWarrior = this.moveWarrior.bind(this);
+    this.resetWarriors = this.resetWarriors.bind(this);
   }
 
   setAllState(newState) {
@@ -104,6 +105,13 @@ class App extends Component {
     }
   }
 
+  resetWarriors() {
+    // eslint-disable-next-line
+    if (confirm('Are you sure you want to reset your regions? You will lose all game data.')) {
+      console.log('reset');
+    }
+  }
+
   render() {
     return (
       <MainContainer column>
@@ -128,7 +136,7 @@ class App extends Component {
           ))}
         </Grid>
         <Grid row justify="center">
-          <Reset>Reset Game</Reset>
+          <Reset onClick={this.resetWarriors}>Reset Game</Reset>
         </Grid>
       </MainContainer>
     );
