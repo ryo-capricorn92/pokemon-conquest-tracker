@@ -1,6 +1,7 @@
 /* global localStorage */
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
+import styled from 'styled-components';
 
 import Grid from './Presentation/Grid';
 import Header from './Presentation/Header';
@@ -20,6 +21,15 @@ const RegionContainer = Grid.extend`
   padding: 15px;
 `;
 
+const Reset = styled.button`
+  width: 200px;
+  margin: 20px;
+  background-color: #e5cece;
+  border: 1px solid #7f0000;
+  color: #7f0000;
+  border-radius: 5px;
+`;
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -33,6 +43,7 @@ class App extends Component {
     this.updateRegion = this.updateRegion.bind(this);
     this.selectWarrior = this.selectWarrior.bind(this);
     this.moveWarrior = this.moveWarrior.bind(this);
+    this.resetWarriors = this.resetWarriors.bind(this);
   }
 
   setAllState(newState) {
@@ -94,6 +105,19 @@ class App extends Component {
     }
   }
 
+  resetWarriors() {
+    // eslint-disable-next-line
+    if (confirm('Are you sure you want to reset your regions? You will lose all game data.')) {
+      const ransei = Object.assign({}, this.state.ransei);
+      regions.forEach((region) => {
+        ransei[region].warriors = [];
+      });
+      this.setAllState({
+        ransei,
+      });
+    }
+  }
+
   render() {
     return (
       <MainContainer column>
@@ -116,6 +140,9 @@ class App extends Component {
               />
             </RegionContainer>
           ))}
+        </Grid>
+        <Grid row justify="center">
+          <Reset onClick={this.resetWarriors}>Reset Game</Reset>
         </Grid>
       </MainContainer>
     );
