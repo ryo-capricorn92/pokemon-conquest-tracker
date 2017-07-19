@@ -58,6 +58,7 @@ const AddWarrior = ({ ransei, selectWarrior, updateRegion }) => {
         name: warrior,
       }, warriors[warrior]));
       updateRegion(region, newWarriors);
+      selectWarrior(warriors[warrior], null);
     }
 
     return false;
