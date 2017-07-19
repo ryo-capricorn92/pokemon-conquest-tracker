@@ -125,7 +125,11 @@ class App extends Component {
           Pokemon Conquest Tracker
         </Header>
         <Grid row>
-          <AddWarrior updateRegion={this.updateRegion} ransei={this.state.ransei} />
+          <AddWarrior
+            updateRegion={this.updateRegion}
+            selectWarrior={this.selectWarrior}
+            ransei={this.state.ransei}
+          />
         </Grid>
         <Grid column>
           {regions.map(region => (
