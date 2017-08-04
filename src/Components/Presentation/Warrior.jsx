@@ -45,6 +45,18 @@ const PerfectLink = Grid.extend`
   border-radius: 3px;
 `;
 
+const CloseButton = styled.button`
+  margin: 10px;
+  background: transparent;
+  border: none;
+  color: darkred;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+`;
+
 const Input = styled.input`
   margin: 5px;
   background-color: #fafafa;
@@ -79,6 +91,7 @@ class Warrior extends Component {
     this.triggerPokemonChange = this.triggerPokemonChange.bind(this);
     this.removePokemonChange = this.removePokemonChange.bind(this);
     this.changePokemon = this.changePokemon.bind(this);
+    this.deletePokemon = this.deletePokemon.bind(this);
     this.selectThisWarrior = this.selectThisWarrior.bind(this);
   }
 
@@ -113,6 +126,14 @@ class Warrior extends Component {
     this.props.updateRegion(this.props.region, this.props.warriors);
   }
 
+  deletePokemon(e) {
+    e.preventDefault();
+    const i = this.props.warriors.indexOf(this.props.warrior);
+    const newWarriors = this.props.warriors.slice();
+    newWarriors.splice(i, 1);
+    this.props.updateRegion(this.props.region, newWarriors);
+  }
+
   selectThisWarrior() {
     this.props.selectWarrior(this.props.warrior, this.props.region);
   }
@@ -145,6 +166,9 @@ class Warrior extends Component {
             </form>
           </AddPokemon>
           <Grid align="flex-end" justify="flex-end" row>
+            <CloseButton onClick={this.deletePokemon} shrink>
+              <i className="fa fa-close fa-2x" aria-hidden="true" />
+            </CloseButton>
             {warrior.perfectLinks.map(poke => (
               <PerfectLink key={poke} isHere={inThisRegion(poke, warrior, region)} shrink>
                 <img src={pokemon[poke].icon} alt={poke} width="45px" height="45px" />
