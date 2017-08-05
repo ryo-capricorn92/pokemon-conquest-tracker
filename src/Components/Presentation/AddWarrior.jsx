@@ -36,29 +36,24 @@ const Submit = styled.input`
   border-radius: 5px;
 `;
 
-const AddWarrior = ({ ransei, selectWarrior, updateRegion }) => {
-  const handleChange = (e) => {
-    const warrior = e.target.value.toLowerCase();
-
-    if (warriors[warrior]) {
-      selectWarrior(warriors[warrior], null);
-    }
-  };
-
+const AddWarrior = ({ ransei, updateRegion }) => {
   const addWarrior = (e) => {
     e.preventDefault();
     const warrior = e.target.warrior.value.trim().toLowerCase();
-    const region = e.target.region.value.trim().toLowerCase();
+    let region = e.target.region.value.trim().toLowerCase();
+    e.target.warrior.value = '';
+    e.target.region.value = '';
+
+    if (!ransei[region]) {
+      region = 'staging';
+    }
 
     if (ransei[region].warriors.length < 6) {
-      e.target.warrior.value = '';
-      e.target.region.value = '';
       const newWarriors = ransei[region].warriors.slice();
       newWarriors.push(Object.assign({
         name: warrior,
       }, warriors[warrior]));
       updateRegion(region, newWarriors);
-      selectWarrior(warriors[warrior], null);
     }
 
     return false;
@@ -80,7 +75,7 @@ const AddWarrior = ({ ransei, selectWarrior, updateRegion }) => {
         <Grid row justify="center">
           <Grid column>
             <label htmlFor="warrior">Warrior</label>
-            <Input list="warriors" name="warrior" onChange={handleChange} />
+            <Input list="warriors" name="warrior" />
             <datalist id="warriors">
               {unobtainedWarriors().map(warrior => (
                 <option value={prettyPrint(warrior)} key={warrior} />
@@ -107,7 +102,6 @@ const AddWarrior = ({ ransei, selectWarrior, updateRegion }) => {
 
 AddWarrior.propTypes = {
   ransei: PropTypes.shape().isRequired,
-  selectWarrior: PropTypes.func.isRequired,
   updateRegion: PropTypes.func.isRequired,
 };
 

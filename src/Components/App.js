@@ -125,14 +125,20 @@ class App extends Component {
           Pokemon Conquest Tracker
         </Header>
         <Grid row>
-          <AddWarrior
-            updateRegion={this.updateRegion}
-            selectWarrior={this.selectWarrior}
-            ransei={this.state.ransei}
-          />
+          <AddWarrior updateRegion={this.updateRegion} ransei={this.state.ransei} />
         </Grid>
         <Grid column>
-          {regions.map(region => (
+          <RegionContainer>
+            <Region
+              name="staging"
+              warriors={this.state.ransei.staging.warriors}
+              updateRegion={this.updateRegion}
+              selectWarrior={this.selectWarrior}
+              moveWarrior={this.moveWarrior}
+              selected={this.state.selected ? this.state.selected.warrior : null}
+            />
+          </RegionContainer>
+          {regions.map(region => region !== 'staging' && (
             <RegionContainer key={region}>
               <Region
                 name={region}
