@@ -9,10 +9,9 @@ import Grid from './Grid';
 import Warrior from './Warrior';
 
 const Wrapper = Grid.extend`
-  padding: 20px;
-  background: ${({ contains }) => contains ? '#b7ccb7' : '#ddd'};
-  border: 2px solid ${({ contains }) => contains ? 'green' : '#999'};
-  border-radius: 15px;
+  padding: 15px;
+  background: ${({ contains }) => contains ? '#b7ccb7' : '#f6f6f6'};
+  box-shadow: 0 1px 5px #666;
   color: #999;
 `;
 
