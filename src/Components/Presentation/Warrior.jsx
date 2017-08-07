@@ -64,10 +64,6 @@ const Input = styled.input`
   border-radius: 5px;
 `;
 
-const AddPokemon = Grid.extend`
-  visibility: ${({ active }) => active ? 'inherit' : 'hidden'};
-`;
-
 const inThisRegion = (poke, warrior, region) => {
   if (!warrior.perfectLinks.includes(warrior.current) && pokemon[poke].region.includes(region)) {
     return true;
@@ -178,19 +174,39 @@ class Warrior extends Component {
             </Grid>
           </Grid>
           */}
-          <CurrentPokemon
-            width="145px"
-            justify="center"
-            align="center"
-            perfect={hasPerfectPokemon(warrior.current, warrior.perfectLinks)}
-            onClick={this.triggerPokemonChange}
-          >
-            {warrior.current ? (
-              <img src={pokemon[warrior.current].icon} alt={warrior.current} />
-            ) : (
-              <i className="fa fa-gitlab fa-4x" aria-hidden="true" />
-            )}
-          </CurrentPokemon>
+          { this.state.showPokeChange ? (
+            <Grid align="center" justify="center" row>
+              <form action="#" onSubmit={this.changePokemon}>
+                <Input
+                  list="pokemans"
+                  name="pokemon"
+                  onBlur={this.removePokemonChange}
+                  innerRef={(input) => { this.pokeInput = input; }}
+                  autoFocus
+                />
+                <datalist id="pokemans">
+                  {Object.keys(pokemon).map(poke => (
+                    <option value={prettyPrint(poke)} key={poke} />
+                  ))}
+                </datalist>
+                <input type="submit" style={{ display: 'none' }} />
+              </form>
+            </Grid>
+          ) : (
+            <CurrentPokemon
+              width="145px"
+              justify="center"
+              align="center"
+              perfect={hasPerfectPokemon(warrior.current, warrior.perfectLinks)}
+              onClick={this.triggerPokemonChange}
+            >
+              {warrior.current ? (
+                <img src={pokemon[warrior.current].icon} alt={warrior.current} />
+              ) : (
+                <i className="fa fa-gitlab fa-4x" aria-hidden="true" />
+              )}
+            </CurrentPokemon>
+          ) }
         </Grid>
         <Grid row>
           <Name align="center">{ prettyPrint(warrior.name) }</Name>
