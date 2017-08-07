@@ -9,9 +9,9 @@ import { prettyPrint } from '../../utils';
 
 const Wrapper = Grid.extend`
   padding: 10px;
-  background: ${({ selected }) => selected ? '#b7cacc' : '#ccc'};
-  border: 2px solid ${({ selected }) => selected ? '#438387' : '#888'};
-  border-radius: 15px;
+  background: ${({ selected }) => selected ? '#b7cacc' : '#e9e9e9'};
+  border: 1px solid ${({ selected }) => selected ? '#438387' : '#999'};
+  border-radius: 5px;
   color: #888;
 `;
 
@@ -46,7 +46,7 @@ const PerfectLink = Grid.extend`
 `;
 
 const CloseButton = styled.button`
-  margin: 10px;
+  margin: 5px;
   background: transparent;
   border: none;
   color: darkred;
@@ -141,54 +141,63 @@ class Warrior extends Component {
   render() {
     const { selected, warrior, region } = this.props;
     return (
-      <Wrapper row selected={isSelected(warrior, selected)}>
-        <Avatar width="145px" justify="center" onClick={this.selectThisWarrior}>
-          <img src={warrior.icon} alt="name" />
-        </Avatar>
-        <Name align="center">
-          {prettyPrint(warrior.name)}
-        </Name>
-        <Grid column shrink style={{ minWidth: 0 }}>
-          <AddPokemon align="flex-end" justify="flex-end" row active={this.state.showPokeChange}>
-            <form action="#" onSubmit={this.changePokemon}>
-              <Input
-                list="pokemans"
-                name="pokemon"
-                onBlur={this.removePokemonChange}
-                innerRef={(input) => { this.pokeInput = input; }}
-              />
-              <datalist id="pokemans">
-                {Object.keys(pokemon).map(poke => (
-                  <option value={prettyPrint(poke)} key={poke} />
-                ))}
-              </datalist>
-              <input type="submit" style={{ display: 'none' }} />
-            </form>
-          </AddPokemon>
-          <Grid align="flex-end" justify="flex-end" row>
+      <Wrapper column selected={isSelected(warrior, selected)}>
+        <Grid row>
+          <Avatar width="145px" justify="center" onClick={this.selectThisWarrior}>
+            <img src={warrior.icon} alt="name" />
+          </Avatar>
+          {/* <Grid column shrink style={{ minWidth: 0 }}>
+            <AddPokemon align="flex-end" justify="flex-end" row active={this.state.showPokeChange}>
+              <form action="#" onSubmit={this.changePokemon}>
+                <Input
+                  list="pokemans"
+                  name="pokemon"
+                  onBlur={this.removePokemonChange}
+                  innerRef={(input) => { this.pokeInput = input; }}
+                />
+                <datalist id="pokemans">
+                  {Object.keys(pokemon).map(poke => (
+                    <option value={prettyPrint(poke)} key={poke} />
+                  ))}
+                </datalist>
+                <input type="submit" style={{ display: 'none' }} />
+              </form>
+            </AddPokemon>
             <CloseButton onClick={this.deletePokemon} shrink>
               <i className="fa fa-close fa-2x" aria-hidden="true" />
             </CloseButton>
-            {warrior.perfectLinks.map(poke => (
-              <PerfectLink key={poke} isHere={inThisRegion(poke, warrior, region)} shrink>
-                <img src={pokemon[poke].icon} alt={poke} width="45px" height="45px" />
-              </PerfectLink>
-            ))}
+            <Grid align="flex-end" justify="flex-end" row>
+              <CloseButton onClick={this.deletePokemon} shrink>
+                <i className="fa fa-close fa-2x" aria-hidden="true" />
+              </CloseButton>
+              {warrior.perfectLinks.map(poke => (
+                <PerfectLink key={poke} isHere={inThisRegion(poke, warrior, region)} shrink>
+                  <img src={pokemon[poke].icon} alt={poke} width="45px" height="45px" />
+                </PerfectLink>
+              ))}
+            </Grid>
           </Grid>
+          */}
+          <CurrentPokemon
+            width="145px"
+            justify="center"
+            align="center"
+            perfect={hasPerfectPokemon(warrior.current, warrior.perfectLinks)}
+            onClick={this.triggerPokemonChange}
+          >
+            {warrior.current ? (
+              <img src={pokemon[warrior.current].icon} alt={warrior.current} />
+            ) : (
+              <i className="fa fa-gitlab fa-4x" aria-hidden="true" />
+            )}
+          </CurrentPokemon>
         </Grid>
-        <CurrentPokemon
-          width="145px"
-          justify="center"
-          align="center"
-          perfect={hasPerfectPokemon(warrior.current, warrior.perfectLinks)}
-          onClick={this.triggerPokemonChange}
-        >
-          {warrior.current ? (
-            <img src={pokemon[warrior.current].icon} alt={warrior.current} />
-          ) : (
-            <i className="fa fa-gitlab fa-4x" aria-hidden="true" />
-          )}
-        </CurrentPokemon>
+        <Grid row>
+          <Name align="center">{ prettyPrint(warrior.name) }</Name>
+          <CloseButton onClick={this.deletePokemon} shrink>
+            <i className="fa fa-close fa-2x" aria-hidden="true" />
+          </CloseButton>
+        </Grid>
       </Wrapper>
     );
   }

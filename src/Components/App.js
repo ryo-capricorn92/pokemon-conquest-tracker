@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import Grid from './Presentation/Grid';
 import Header from './Presentation/Header';
 import Region from './Presentation/Region';
+import StagingRegion from './Presentation/StagingRegion';
 import AddWarrior from './Presentation/AddWarrior';
 
 import { regions } from '../Data/regions.json';
@@ -14,7 +15,7 @@ import { regions } from '../Data/regions.json';
 
 const MainContainer = Grid.extend`
   padding: 0 30px;
-  min-width: 1024px;
+  min-width: 1200px;
 `;
 
 const RegionContainer = Grid.extend`
@@ -129,7 +130,7 @@ class App extends Component {
         </Grid>
         <Grid column>
           <RegionContainer>
-            <Region
+            <StagingRegion
               name="staging"
               warriors={this.state.ransei.staging.warriors}
               updateRegion={this.updateRegion}

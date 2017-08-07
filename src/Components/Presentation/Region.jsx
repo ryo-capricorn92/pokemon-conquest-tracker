@@ -8,7 +8,8 @@ import pokemon from '../../Data/pokemon.json';
 import Grid from './Grid';
 import Warrior from './Warrior';
 
-const Wrapper = Grid.extend`
+const Wrapper = styled.div`
+  flex-grow: 1;
   padding: 15px;
   background: ${({ contains }) => contains ? '#b7ccb7' : '#f6f6f6'};
   box-shadow: 0 1px 5px #666;
@@ -19,6 +20,13 @@ const Title = styled.h3`
   text-align: center;
   font-size: 18px;
   color: indianred;
+  grid-column-start: first;
+  grid-column-end: end;
+`;
+
+const Container = styled.div`
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
 `;
 
 const WarriorContainer = Grid.extend`
@@ -43,9 +51,9 @@ const Region = ({ moveWarrior, name, selected, selectWarrior, updateRegion, warr
   };
 
   return (
-    <Wrapper column contains={containsPerfect()}>
+    <Wrapper contains={containsPerfect()}>
       <Title onClick={handleClick}>{prettyPrint(name)}</Title>
-      <Grid column>
+      <Container>
         {warriors.map(warrior => (
           <WarriorContainer key={warrior.name}>
             <Warrior
@@ -58,7 +66,7 @@ const Region = ({ moveWarrior, name, selected, selectWarrior, updateRegion, warr
             />
           </WarriorContainer>
         ))}
-      </Grid>
+      </Container>
     </Wrapper>
   );
 };
