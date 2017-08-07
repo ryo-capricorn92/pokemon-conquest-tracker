@@ -28,10 +28,22 @@ const Name = Grid.extend`
   padding: 5px;
 `;
 
+const PokeBackground = ({ perfect, perfectCanBeFound }) => {
+  if (perfect) {
+    return '#b7ccb7';
+  }
+
+  if (perfectCanBeFound) {
+    return 'linear-gradient(to right, #b7ccb7 , #ccb7b7)';
+  }
+
+  return '#ccb7b7';
+};
+
 const CurrentPokemon = Grid.extend`
   margin-left: 5px;
   padding: 5px;
-  background: ${({ perfect }) => perfect ? '#b7ccb7' : '#ccb7b7'};
+  background: ${PokeBackground};
   border: 2px solid ${({ perfect }) => perfect ? 'green' : 'darkred'};
   border-radius: 3px;
   cursor: pointer;
@@ -64,13 +76,13 @@ const Input = styled.input`
   border-radius: 5px;
 `;
 
-const inThisRegion = (poke, warrior, region) => {
+const inThisRegion = (perfects, warrior, region) => perfects.reduce((canBeFound, poke) => {
   if (!warrior.perfectLinks.includes(warrior.current) && pokemon[poke].region.includes(region)) {
     return true;
   }
 
-  return false;
-};
+  return canBeFound;
+}, false);
 
 const hasPerfectPokemon = (current, perfects) => perfects.includes(current);
 
@@ -198,6 +210,7 @@ class Warrior extends Component {
               justify="center"
               align="center"
               perfect={hasPerfectPokemon(warrior.current, warrior.perfectLinks)}
+              perfectCanBeFound={inThisRegion(warrior.perfectLinks, warrior, region)}
               onClick={this.triggerPokemonChange}
             >
               {warrior.current ? (
