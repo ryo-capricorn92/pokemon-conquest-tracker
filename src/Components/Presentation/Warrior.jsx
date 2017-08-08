@@ -22,7 +22,7 @@ const Tooltip = styled.div`
   z-index: 5;
   padding: 15px;
   left: -32px;
-  bottom: -30px;
+  top: 210px;
   background: #fff;
   box-shadow: 0 1px 5px #666;
   width: 350px;
@@ -38,8 +38,8 @@ const InnerTooltip = styled.div`
     position: absolute;
     bottom: 100%;
     left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
+    margin-left: -10px;
+    border-width: 10px;
     border-style: solid;
     border-color: transparent transparent #fff transparent;
   }
@@ -56,6 +56,13 @@ const Avatar = Grid.extend`
 const Name = Grid.extend`
   font-size: 16px;
   padding: 5px;
+`;
+
+const SubTitle = Grid.withComponent('h3').extend`
+  font-size: 14px;
+  padding: 3px;
+  font-weight: 500;
+  justify-content: center;
 `;
 
 const PokeBackground = ({ perfect, perfectCanBeFound }) => {
@@ -106,17 +113,26 @@ const Input = styled.input`
   border-radius: 5px;
 `;
 
-const inThisRegion = (perfects, warrior, region) => perfects.reduce((canBeFound, poke) => {
-  if (!warrior.perfectLinks.includes(warrior.current) && pokemon[poke].region.includes(region)) {
-    return true;
-  }
+const inThisRegion = (perfects, warrior, region) => {
+  const perfArray = Array.isArray(perfects) ? perfects : [perfects];
 
-  return canBeFound;
-}, false);
+  return perfArray.reduce((canBeFound, poke) => {
+    if (!warrior.perfectLinks.includes(warrior.current) && pokemon[poke].region.includes(region)) {
+      return true;
+    }
+
+    return canBeFound;
+  }, false);
+};
 
 const hasPerfectPokemon = (current, perfects) => perfects.includes(current);
 
 const isSelected = (warrior, selected) => warrior === selected;
+
+const listPerfectRegions = perfects => Object.keys(perfects.reduce((regions, poke) => {
+  pokemon[poke].region.forEach(region => regions[region] = true);
+  return regions;
+}, {}));
 
 class Warrior extends Component {
   constructor(props) {
@@ -258,7 +274,27 @@ class Warrior extends Component {
           </CloseButton>
         </Grid>
         <Tooltip>
-          <InnerTooltip />
+          <InnerTooltip>
+            <Name justify="center">{ prettyPrint(warrior.name) }</Name>
+            <Grid row>
+              <Grid column>
+                <SubTitle shrink>Perfect Regions</SubTitle>
+                { listPerfectRegions(warrior.perfectLinks).map(region => (
+                  <div style={{ textAlign: 'center' }}>{prettyPrint(region)}</div>
+                  )) }
+              </Grid>
+              <Grid column style={{ maxWidth: '50%' }}>
+                <SubTitle>Perfect Links</SubTitle>
+                <Grid row wrap style={{ justifyContent: 'space-around' }}>
+                  {warrior.perfectLinks.map(poke => (
+                    <PerfectLink key={poke} isHere={inThisRegion(poke, warrior, region)} shrink>
+                      <img src={pokemon[poke].icon} alt={poke} width="45px" height="45px" />
+                    </PerfectLink>
+                  ))}
+                </Grid>
+              </Grid>
+            </Grid>
+          </InnerTooltip>
         </Tooltip>
       </Wrapper>
     );
