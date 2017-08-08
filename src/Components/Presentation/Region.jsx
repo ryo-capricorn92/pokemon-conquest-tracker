@@ -26,7 +26,14 @@ const Title = styled.h3`
 
 const Container = styled.div`
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-around;
+
+  @media (min-width: 2250px) {
+    & {
+      grid-template-columns: repeat(6, auto);
+    }
+  }
 `;
 
 const WarriorContainer = Grid.extend`

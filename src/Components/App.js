@@ -152,7 +152,7 @@ class App extends Component {
             </RegionContainer>
           ))}
         </Grid>
-        <Grid row justify="center">
+        <Grid row justify="center" align="center" style={{ height: '300px' }}>
           <Reset onClick={this.resetWarriors}>Reset Game</Reset>
         </Grid>
       </MainContainer>

@@ -18,7 +18,7 @@ const Wrapper = Grid.extend`
 const Avatar = Grid.extend`
   padding: 5px;
   background: #bbb;
-  border: 2px solid darkgray;
+  border: 1px solid darkgray;
   border-radius: 3px;
   cursor: pointer;
 `;
@@ -44,7 +44,7 @@ const CurrentPokemon = Grid.extend`
   margin-left: 5px;
   padding: 5px;
   background: ${PokeBackground};
-  border: 2px solid ${({ perfect }) => perfect ? 'green' : 'darkred'};
+  border: 1px solid ${({ perfect }) => perfect ? 'green' : 'darkred'};
   border-radius: 3px;
   cursor: pointer;
 `;
@@ -53,7 +53,7 @@ const PerfectLink = Grid.extend`
   margin: 5px;
   padding: 5px;
   background: ${({ isHere }) => isHere ? '#b7ccb7' : '#bbb'};
-  border: 2px solid ${({ isHere }) => isHere ? 'green' : 'darkgray'};
+  border: 1px solid ${({ isHere }) => isHere ? 'green' : 'darkgray'};
   border-radius: 3px;
 `;
 
