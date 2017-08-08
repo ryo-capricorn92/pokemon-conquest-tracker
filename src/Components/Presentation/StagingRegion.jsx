@@ -10,9 +10,9 @@ import Warrior from './StagingWarrior';
 
 const Wrapper = Grid.extend`
   padding: 20px;
-  background: ${({ contains }) => contains ? '#b7ccb7' : '#ddd'};
-  border: 2px solid ${({ contains }) => contains ? 'green' : '#999'};
-  border-radius: 15px;
+  background: #fffbd1;
+  border: 1px solid #99967d;
+  border-radius: 5px;
   color: #999;
 `;
 
