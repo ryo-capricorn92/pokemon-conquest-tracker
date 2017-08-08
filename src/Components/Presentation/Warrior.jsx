@@ -8,11 +8,41 @@ import pokemon from '../../Data/pokemon.json';
 import { prettyPrint } from '../../utils';
 
 const Wrapper = Grid.extend`
+  position: relative;
   padding: 10px;
   background: ${({ selected }) => selected ? '#b7cacc' : '#e9e9e9'};
   border: 1px solid ${({ selected }) => selected ? '#438387' : '#999'};
   border-radius: 5px;
   color: #888;
+`;
+
+const Tooltip = styled.div`
+  display: none;
+  position: absolute;
+  z-index: 5;
+  padding: 15px;
+  left: -32px;
+  bottom: -30px;
+  background: #fff;
+  box-shadow: 0 1px 5px #666;
+  width: 350px;
+
+  ${Wrapper}:hover & {
+    display: block;
+  }
+`;
+
+const InnerTooltip = styled.div`
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+  }
 `;
 
 const Avatar = Grid.extend`
@@ -227,6 +257,9 @@ class Warrior extends Component {
             <i className="fa fa-close fa-2x" aria-hidden="true" />
           </CloseButton>
         </Grid>
+        <Tooltip>
+          <InnerTooltip />
+        </Tooltip>
       </Wrapper>
     );
   }
