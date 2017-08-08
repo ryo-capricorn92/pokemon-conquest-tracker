@@ -280,7 +280,7 @@ class Warrior extends Component {
               <Grid column>
                 <SubTitle shrink>Perfect Regions</SubTitle>
                 { listPerfectRegions(warrior.perfectLinks).map(region => (
-                  <div style={{ textAlign: 'center' }}>{prettyPrint(region)}</div>
+                  <div style={{ textAlign: 'center' }} key={region}>{prettyPrint(region)}</div>
                   )) }
               </Grid>
               <Grid column style={{ maxWidth: '50%' }}>
