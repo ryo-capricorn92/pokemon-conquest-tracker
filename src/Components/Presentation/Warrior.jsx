@@ -89,7 +89,7 @@ const CurrentPokemon = Grid.extend`
 const PerfectLink = Grid.extend`
   margin: 5px;
   padding: 5px;
-  background: ${({ isHere }) => isHere ? '#b7ccb7' : '#bbb'};
+  background: ${({ isHere }) => isHere ? '#b7ccb7' : '#ddd'};
   border: 1px solid ${({ isHere }) => isHere ? 'green' : 'darkgray'};
   border-radius: 3px;
 `;

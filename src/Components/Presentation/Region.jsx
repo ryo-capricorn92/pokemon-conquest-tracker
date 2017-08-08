@@ -59,10 +59,10 @@ const Region = ({ moveWarrior, name, selected, selectWarrior, updateRegion, warr
 
   return (
     <Wrapper contains={containsPerfect()}>
-      <Grid justify="center" align="center">
+      <Grid justify="center" align="center" onClick={handleClick}>
         <img src="empty.png" className={name} alt={name} />
         <Grid width="20px" />
-        <Title onClick={handleClick}>{prettyPrint(name)}</Title>
+        <Title>{prettyPrint(name)}</Title>
       </Grid>
       <Container>
         {warriors.map(warrior => (

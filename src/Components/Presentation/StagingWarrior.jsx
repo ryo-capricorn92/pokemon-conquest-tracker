@@ -9,16 +9,16 @@ import { prettyPrint } from '../../utils';
 
 const Wrapper = Grid.extend`
   padding: 10px;
-  background: ${({ selected }) => selected ? '#b7cacc' : '#ccc'};
-  border: 2px solid ${({ selected }) => selected ? '#438387' : '#888'};
-  border-radius: 15px;
+  background: ${({ selected }) => selected ? '#b7cacc' : '#e5e2c5'};
+  border: 1px solid ${({ selected }) => selected ? '#438387' : '#888'};
+  border-radius: 5px;
   color: #888;
 `;
 
 const Avatar = Grid.extend`
   padding: 5px;
   background: #bbb;
-  border: 2px solid darkgray;
+  border: 1px solid darkgray;
   border-radius: 3px;
   cursor: pointer;
 `;
@@ -32,7 +32,7 @@ const CurrentPokemon = Grid.extend`
   margin-left: 5px;
   padding: 5px;
   background: ${({ perfect }) => perfect ? '#b7ccb7' : '#ccb7b7'};
-  border: 2px solid ${({ perfect }) => perfect ? 'green' : 'darkred'};
+  border: 1px solid ${({ perfect }) => perfect ? 'green' : 'darkred'};
   border-radius: 3px;
   cursor: pointer;
 `;
@@ -41,7 +41,7 @@ const PerfectLink = Grid.extend`
   margin: 5px;
   padding: 5px;
   background: ${({ isHere }) => isHere ? '#b7ccb7' : '#bbb'};
-  border: 2px solid ${({ isHere }) => isHere ? 'green' : 'darkgray'};
+  border: 1px solid ${({ isHere }) => isHere ? 'green' : 'darkgray'};
   border-radius: 3px;
 `;
 
