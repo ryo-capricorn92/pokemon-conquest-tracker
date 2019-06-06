@@ -1,4 +1,3 @@
-/* global localStorage */
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import styled from 'styled-components';
@@ -10,8 +9,6 @@ import StagingRegion from './Presentation/StagingRegion';
 import AddWarrior from './Presentation/AddWarrior';
 
 import { regions } from '../Data/regions.json';
-// import warriors from '../Data/warriors.json';
-// import pokemon from '../Data/pokemon.json';
 
 const MainContainer = Grid.extend`
   padding: 0 30px;
