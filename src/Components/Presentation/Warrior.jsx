@@ -7,7 +7,9 @@ import Grid from './Grid';
 import pokemon from '../../Data/pokemon.json';
 import { prettyPrint } from '../../utils';
 
-const Wrapper = Grid.extend`
+const Wrapper = Grid.extend.withConfig({
+  displayName: 'Wrapper',
+})`
   position: relative;
   padding: 10px;
   background: ${({ selected }) => selected ? '#b7cacc' : '#e9e9e9'};
